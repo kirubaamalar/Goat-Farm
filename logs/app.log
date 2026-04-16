@@ -1,0 +1,302 @@
+2026-04-16 12:30:45,450 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-16 12:30:45,451 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-16 12:30:45,453 - INFO -  * Restarting with stat
+2026-04-16 12:30:45,769 - WARNING -  * Debugger is active!
+2026-04-16 12:30:45,777 - INFO -  * Debugger PIN: 139-420-596
+2026-04-16 12:31:05,099 - INFO - package: mysql.connector.plugins
+2026-04-16 12:31:05,099 - INFO - plugin_name: caching_sha2_password
+2026-04-16 12:31:05,099 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-04-16 12:31:05,112 - ERROR - 1146 (42S02): Table 'goat_farm_db.goats' doesn't exist
+2026-04-16 12:31:05,115 - INFO - 127.0.0.1 - - [16/Apr/2026 12:31:05] "GET /api/goat/list HTTP/1.1" 200 -
+2026-04-16 12:35:03,977 - ERROR - 1146 (42S02): Table 'goat_farm_db.goats' doesn't exist
+2026-04-16 12:35:03,982 - INFO - 127.0.0.1 - - [16/Apr/2026 12:35:03] "POST /api/goat/add HTTP/1.1" 200 -
+2026-04-16 12:35:33,831 - ERROR - 1146 (42S02): Table 'goat_farm_db.goats' doesn't exist
+2026-04-16 12:35:33,832 - INFO - 127.0.0.1 - - [16/Apr/2026 12:35:33] "GET /api/goat/list HTTP/1.1" 200 -
+2026-04-16 12:36:03,008 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-16 12:36:03,008 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-16 12:36:03,009 - INFO -  * Restarting with stat
+2026-04-16 12:36:03,334 - WARNING -  * Debugger is active!
+2026-04-16 12:36:03,336 - INFO -  * Debugger PIN: 139-420-596
+2026-04-16 12:36:13,752 - INFO - package: mysql.connector.plugins
+2026-04-16 12:36:13,752 - INFO - plugin_name: caching_sha2_password
+2026-04-16 12:36:13,753 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-04-16 12:36:13,867 - ERROR - 1146 (42S02): Table 'goat_farm_db.goats' doesn't exist
+2026-04-16 12:36:13,870 - INFO - 127.0.0.1 - - [16/Apr/2026 12:36:13] "POST /api/goat/add HTTP/1.1" 200 -
+2026-04-16 12:36:36,507 - ERROR - 1146 (42S02): Table 'goat_farm_db.goats' doesn't exist
+2026-04-16 12:36:36,511 - INFO - 127.0.0.1 - - [16/Apr/2026 12:36:36] "POST /api/goat/add HTTP/1.1" 200 -
+2026-04-16 12:37:06,828 - ERROR - 1146 (42S02): Table 'goat_farm_db.goats' doesn't exist
+2026-04-16 12:37:06,833 - INFO - 127.0.0.1 - - [16/Apr/2026 12:37:06] "POST /api/goat/add HTTP/1.1" 200 -
+2026-04-16 12:47:51,605 - INFO -  * Detected change in 'C:\\Users\\USER\\Desktop\\Goat Farm\\models\\goat_model.py', reloading
+2026-04-16 12:47:51,646 - INFO -  * Restarting with stat
+2026-04-16 12:47:51,901 - WARNING -  * Debugger is active!
+2026-04-16 12:47:51,903 - INFO -  * Debugger PIN: 139-420-596
+2026-04-16 12:48:26,096 - INFO -  * Detected change in 'C:\\Users\\USER\\Desktop\\Goat Farm\\services\\goat_service.py', reloading
+2026-04-16 12:48:26,147 - INFO -  * Restarting with stat
+2026-04-16 12:48:26,414 - WARNING -  * Debugger is active!
+2026-04-16 12:48:26,415 - INFO -  * Debugger PIN: 139-420-596
+2026-04-16 12:49:26,306 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-16 12:49:26,306 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-16 12:49:26,307 - INFO -  * Restarting with stat
+2026-04-16 12:49:26,555 - WARNING -  * Debugger is active!
+2026-04-16 12:49:26,557 - INFO -  * Debugger PIN: 139-420-596
+2026-04-16 12:51:02,096 - INFO -  * Detected change in 'C:\\Users\\USER\\Desktop\\Goat Farm\\models\\init_db.py', reloading
+2026-04-16 12:51:02,137 - INFO -  * Restarting with stat
+2026-04-16 12:51:02,406 - WARNING -  * Debugger is active!
+2026-04-16 12:51:02,408 - INFO -  * Debugger PIN: 139-420-596
+2026-04-16 12:51:24,664 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-16 12:51:24,664 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-16 12:51:24,665 - INFO -  * Restarting with stat
+2026-04-16 12:51:24,921 - WARNING -  * Debugger is active!
+2026-04-16 12:51:24,923 - INFO -  * Debugger PIN: 139-420-596
+2026-04-16 12:51:32,570 - INFO - package: mysql.connector.plugins
+2026-04-16 12:51:32,570 - INFO - plugin_name: caching_sha2_password
+2026-04-16 12:51:32,571 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-04-16 12:51:32,712 - INFO - Goat G001 added
+2026-04-16 12:51:32,713 - INFO - 127.0.0.1 - - [16/Apr/2026 12:51:32] "POST /api/goat/add HTTP/1.1" 200 -
+2026-04-16 12:51:38,903 - INFO - 127.0.0.1 - - [16/Apr/2026 12:51:38] "GET /api/goat/list HTTP/1.1" 200 -
+2026-04-16 12:53:00,473 - INFO -  * Detected change in 'C:\\Users\\USER\\Desktop\\Goat Farm\\models\\goat_model.py', reloading
+2026-04-16 12:53:00,596 - INFO -  * Restarting with stat
+2026-04-16 12:53:01,052 - WARNING -  * Debugger is active!
+2026-04-16 12:53:01,054 - INFO -  * Debugger PIN: 139-420-596
+2026-04-16 12:53:39,010 - INFO -  * Detected change in 'C:\\Users\\USER\\Desktop\\Goat Farm\\services\\goat_service.py', reloading
+2026-04-16 12:53:39,093 - INFO -  * Restarting with stat
+2026-04-16 12:53:39,466 - WARNING -  * Debugger is active!
+2026-04-16 12:53:39,468 - INFO -  * Debugger PIN: 139-420-596
+2026-04-16 12:54:02,697 - INFO -  * Detected change in 'C:\\Users\\USER\\Desktop\\Goat Farm\\routes\\goat_routes.py', reloading
+2026-04-16 12:54:02,730 - INFO -  * Restarting with stat
+2026-04-16 12:54:03,082 - WARNING -  * Debugger is active!
+2026-04-16 12:54:03,085 - INFO -  * Debugger PIN: 139-420-596
+2026-04-16 12:54:19,443 - INFO -  * Detected change in 'C:\\Users\\USER\\Desktop\\Goat Farm\\models\\goat_model.py', reloading
+2026-04-16 12:54:19,553 - INFO -  * Restarting with stat
+2026-04-16 12:54:19,963 - WARNING -  * Debugger is active!
+2026-04-16 12:54:19,966 - INFO -  * Debugger PIN: 139-420-596
+2026-04-16 12:54:51,158 - INFO -  * Detected change in 'C:\\Users\\USER\\Desktop\\Goat Farm\\services\\goat_service.py', reloading
+2026-04-16 12:54:51,192 - INFO -  * Restarting with stat
+2026-04-16 12:54:51,593 - WARNING -  * Debugger is active!
+2026-04-16 12:54:51,596 - INFO -  * Debugger PIN: 139-420-596
+2026-04-16 12:55:22,693 - INFO -  * Detected change in 'C:\\Users\\USER\\Desktop\\Goat Farm\\routes\\goat_routes.py', reloading
+2026-04-16 12:55:22,782 - INFO -  * Restarting with stat
+2026-04-16 12:55:23,153 - WARNING -  * Debugger is active!
+2026-04-16 12:55:23,161 - INFO -  * Debugger PIN: 139-420-596
+2026-04-16 12:56:39,908 - INFO - package: mysql.connector.plugins
+2026-04-16 12:56:39,909 - INFO - plugin_name: caching_sha2_password
+2026-04-16 12:56:39,909 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-04-16 12:56:39,937 - INFO - 127.0.0.1 - - [16/Apr/2026 12:56:39] "PUT /api/goat/update/1 HTTP/1.1" 200 -
+2026-04-16 12:56:44,476 - INFO - 127.0.0.1 - - [16/Apr/2026 12:56:44] "GET /api/goat/list HTTP/1.1" 200 -
+2026-04-16 12:57:00,072 - INFO - 127.0.0.1 - - [16/Apr/2026 12:57:00] "PUT /api/goat/update/1 HTTP/1.1" 200 -
+2026-04-16 12:58:19,472 - INFO - 127.0.0.1 - - [16/Apr/2026 12:58:19] "DELETE /api/goat/delete/1 HTTP/1.1" 200 -
+2026-04-16 12:58:24,843 - ERROR - 1062 (23000): Duplicate entry 'G001' for key 'goats.goat_code'
+2026-04-16 12:58:24,845 - INFO - 127.0.0.1 - - [16/Apr/2026 12:58:24] "POST /api/goat/add HTTP/1.1" 200 -
+2026-04-16 13:32:31,975 - INFO - 127.0.0.1 - - [16/Apr/2026 13:32:31] "DELETE /api/goat/delete/1 HTTP/1.1" 200 -
+2026-04-16 13:33:18,160 - INFO - 127.0.0.1 - - [16/Apr/2026 13:33:18] "PUT /api/goat/update/1 HTTP/1.1" 200 -
+2026-04-16 13:33:40,212 - INFO - 127.0.0.1 - - [16/Apr/2026 13:33:40] "GET /api/goat/list HTTP/1.1" 200 -
+2026-04-16 13:33:43,378 - INFO - 127.0.0.1 - - [16/Apr/2026 13:33:43] "GET /api/goat/list HTTP/1.1" 200 -
+2026-04-16 13:33:46,568 - INFO - 127.0.0.1 - - [16/Apr/2026 13:33:46] "GET /api/goat/list HTTP/1.1" 200 -
+2026-04-16 13:34:37,265 - INFO - 127.0.0.1 - - [16/Apr/2026 13:34:37] "GET /api/goat/list HTTP/1.1" 200 -
+2026-04-16 13:34:56,695 - INFO - 127.0.0.1 - - [16/Apr/2026 13:34:56] "PUT /api/goat/update/1 HTTP/1.1" 200 -
+2026-04-16 13:34:57,289 - INFO - 127.0.0.1 - - [16/Apr/2026 13:34:57] "PUT /api/goat/update/1 HTTP/1.1" 200 -
+2026-04-16 13:35:17,421 - INFO - 127.0.0.1 - - [16/Apr/2026 13:35:17] "PUT /api/goat/update/1 HTTP/1.1" 200 -
+2026-04-16 13:35:32,140 - INFO - 127.0.0.1 - - [16/Apr/2026 13:35:32] "DELETE /api/goat/delete/1 HTTP/1.1" 200 -
+2026-04-16 13:37:07,030 - INFO - 127.0.0.1 - - [16/Apr/2026 13:37:07] "GET /api/goat/list HTTP/1.1" 200 -
+2026-04-16 13:39:33,839 - INFO - Goat G002 added
+2026-04-16 13:39:33,840 - INFO - 127.0.0.1 - - [16/Apr/2026 13:39:33] "POST /api/goat/add HTTP/1.1" 200 -
+2026-04-16 13:39:38,611 - INFO - Goat G003 added
+2026-04-16 13:39:38,613 - INFO - 127.0.0.1 - - [16/Apr/2026 13:39:38] "POST /api/goat/add HTTP/1.1" 200 -
+2026-04-16 13:39:55,759 - INFO - 127.0.0.1 - - [16/Apr/2026 13:39:55] "GET /api/goat/list HTTP/1.1" 200 -
+2026-04-16 13:40:11,178 - INFO - Goat G004 added
+2026-04-16 13:40:11,180 - INFO - 127.0.0.1 - - [16/Apr/2026 13:40:11] "POST /api/goat/add HTTP/1.1" 200 -
+2026-04-16 13:40:18,351 - INFO - Goat G005 added
+2026-04-16 13:40:18,353 - INFO - 127.0.0.1 - - [16/Apr/2026 13:40:18] "POST /api/goat/add HTTP/1.1" 200 -
+2026-04-16 13:40:25,188 - INFO - Goat G006 added
+2026-04-16 13:40:25,190 - INFO - 127.0.0.1 - - [16/Apr/2026 13:40:25] "POST /api/goat/add HTTP/1.1" 200 -
+2026-04-16 13:41:45,534 - INFO -  * Detected change in 'C:\\Users\\USER\\Desktop\\Goat Farm\\models\\feeding_model.py', reloading
+2026-04-16 13:41:45,569 - INFO -  * Restarting with stat
+2026-04-16 13:41:45,862 - WARNING -  * Debugger is active!
+2026-04-16 13:41:45,865 - INFO -  * Debugger PIN: 139-420-596
+2026-04-16 13:41:59,798 - INFO -  * Detected change in 'C:\\Users\\USER\\Desktop\\Goat Farm\\services\\feeding_service.py', reloading
+2026-04-16 13:41:59,834 - INFO -  * Restarting with stat
+2026-04-16 13:42:00,097 - WARNING -  * Debugger is active!
+2026-04-16 13:42:00,099 - INFO -  * Debugger PIN: 139-420-596
+2026-04-16 13:42:11,714 - INFO -  * Detected change in 'C:\\Users\\USER\\Desktop\\Goat Farm\\routes\\feeding_routes.py', reloading
+2026-04-16 13:42:11,756 - INFO -  * Restarting with stat
+2026-04-16 13:42:12,159 - WARNING -  * Debugger is active!
+2026-04-16 13:42:12,163 - INFO -  * Debugger PIN: 139-420-596
+2026-04-16 13:43:00,061 - INFO -  * Detected change in 'C:\\Users\\USER\\Desktop\\Goat Farm\\app.py', reloading
+2026-04-16 13:43:00,101 - INFO -  * Restarting with stat
+2026-04-16 13:43:00,431 - WARNING -  * Debugger is active!
+2026-04-16 13:43:00,433 - INFO -  * Debugger PIN: 139-420-596
+2026-04-16 13:43:04,624 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-16 13:43:04,624 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-16 13:43:04,625 - INFO -  * Restarting with stat
+2026-04-16 13:43:04,894 - WARNING -  * Debugger is active!
+2026-04-16 13:43:04,896 - INFO -  * Debugger PIN: 139-420-596
+2026-04-16 13:44:26,073 - INFO - package: mysql.connector.plugins
+2026-04-16 13:44:26,073 - INFO - plugin_name: caching_sha2_password
+2026-04-16 13:44:26,073 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-04-16 13:44:26,084 - ERROR - 1146 (42S02): Table 'goat_farm_db.feeding' doesn't exist
+2026-04-16 13:44:26,086 - INFO - 127.0.0.1 - - [16/Apr/2026 13:44:26] "POST /api/feeding/add HTTP/1.1" 200 -
+2026-04-16 13:46:48,476 - INFO -  * Detected change in 'C:\\Users\\USER\\Desktop\\Goat Farm\\models\\init_db.py', reloading
+2026-04-16 13:46:48,514 - INFO -  * Restarting with stat
+2026-04-16 13:46:48,783 - WARNING -  * Debugger is active!
+2026-04-16 13:46:48,784 - INFO -  * Debugger PIN: 139-420-596
+2026-04-16 13:46:59,462 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-16 13:46:59,462 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-16 13:46:59,463 - INFO -  * Restarting with stat
+2026-04-16 13:46:59,711 - WARNING -  * Debugger is active!
+2026-04-16 13:46:59,713 - INFO -  * Debugger PIN: 139-420-596
+2026-04-16 13:47:03,406 - INFO - package: mysql.connector.plugins
+2026-04-16 13:47:03,407 - INFO - plugin_name: caching_sha2_password
+2026-04-16 13:47:03,407 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-04-16 13:47:03,431 - INFO - 127.0.0.1 - - [16/Apr/2026 13:47:03] "POST /api/feeding/add HTTP/1.1" 200 -
+2026-04-16 13:47:35,318 - INFO - 127.0.0.1 - - [16/Apr/2026 13:47:35] "POST /api/feeding/add HTTP/1.1" 200 -
+2026-04-16 13:47:41,489 - INFO - 127.0.0.1 - - [16/Apr/2026 13:47:41] "POST /api/feeding/add HTTP/1.1" 200 -
+2026-04-16 13:47:47,067 - INFO - 127.0.0.1 - - [16/Apr/2026 13:47:47] "POST /api/feeding/add HTTP/1.1" 200 -
+2026-04-16 13:47:53,240 - INFO - 127.0.0.1 - - [16/Apr/2026 13:47:53] "POST /api/feeding/add HTTP/1.1" 200 -
+2026-04-16 13:49:22,239 - INFO -  * Detected change in 'C:\\Users\\USER\\Desktop\\Goat Farm\\models\\feeding_model.py', reloading
+2026-04-16 13:49:22,327 - INFO -  * Restarting with stat
+2026-04-16 13:49:22,627 - WARNING -  * Debugger is active!
+2026-04-16 13:49:22,630 - INFO -  * Debugger PIN: 139-420-596
+2026-04-16 13:49:40,001 - INFO -  * Detected change in 'C:\\Users\\USER\\Desktop\\Goat Farm\\models\\feeding_model.py', reloading
+2026-04-16 13:49:40,069 - INFO -  * Restarting with stat
+2026-04-16 13:49:40,396 - WARNING -  * Debugger is active!
+2026-04-16 13:49:40,398 - INFO -  * Debugger PIN: 139-420-596
+2026-04-16 13:50:05,002 - INFO -  * Detected change in 'C:\\Users\\USER\\Desktop\\Goat Farm\\services\\feeding_service.py', reloading
+2026-04-16 13:50:05,079 - INFO -  * Restarting with stat
+2026-04-16 13:50:05,414 - WARNING -  * Debugger is active!
+2026-04-16 13:50:05,416 - INFO -  * Debugger PIN: 139-420-596
+2026-04-16 13:50:11,982 - INFO -  * Detected change in 'C:\\Users\\USER\\Desktop\\Goat Farm\\services\\feeding_service.py', reloading
+2026-04-16 13:50:12,018 - INFO -  * Restarting with stat
+2026-04-16 13:50:12,279 - WARNING -  * Debugger is active!
+2026-04-16 13:50:12,281 - INFO -  * Debugger PIN: 139-420-596
+2026-04-16 13:50:30,873 - INFO -  * Detected change in 'C:\\Users\\USER\\Desktop\\Goat Farm\\services\\feeding_service.py', reloading
+2026-04-16 13:50:30,907 - INFO -  * Restarting with stat
+2026-04-16 13:50:31,207 - WARNING -  * Debugger is active!
+2026-04-16 13:50:31,208 - INFO -  * Debugger PIN: 139-420-596
+2026-04-16 13:50:47,708 - INFO -  * Detected change in 'C:\\Users\\USER\\Desktop\\Goat Farm\\routes\\feeding_routes.py', reloading
+2026-04-16 13:50:47,794 - INFO -  * Restarting with stat
+2026-04-16 13:50:48,143 - WARNING -  * Debugger is active!
+2026-04-16 13:50:48,148 - INFO -  * Debugger PIN: 139-420-596
+2026-04-16 13:52:00,670 - INFO -  * Detected change in 'C:\\Users\\USER\\Desktop\\Goat Farm\\routes\\feeding_routes.py', reloading
+2026-04-16 13:52:00,703 - INFO -  * Restarting with stat
+2026-04-16 13:52:00,961 - WARNING -  * Debugger is active!
+2026-04-16 13:52:00,963 - INFO -  * Debugger PIN: 139-420-596
+2026-04-16 13:56:41,618 - INFO -  * Detected change in 'C:\\Users\\USER\\Desktop\\Goat Farm\\routes\\feeding_routes.py', reloading
+2026-04-16 13:56:41,651 - INFO -  * Restarting with stat
+2026-04-16 13:56:41,954 - WARNING -  * Debugger is active!
+2026-04-16 13:56:41,957 - INFO -  * Debugger PIN: 139-420-596
+2026-04-16 13:56:55,789 - INFO -  * Detected change in 'C:\\Users\\USER\\Desktop\\Goat Farm\\routes\\feeding_routes.py', reloading
+2026-04-16 13:56:55,827 - INFO -  * Restarting with stat
+2026-04-16 13:56:56,079 - WARNING -  * Debugger is active!
+2026-04-16 13:56:56,081 - INFO -  * Debugger PIN: 139-420-596
+2026-04-16 13:58:19,752 - INFO - package: mysql.connector.plugins
+2026-04-16 13:58:19,752 - INFO - plugin_name: caching_sha2_password
+2026-04-16 13:58:19,753 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-04-16 13:58:19,766 - INFO - 127.0.0.1 - - [16/Apr/2026 13:58:19] "GET /api/feeding/list HTTP/1.1" 200 -
+2026-04-16 13:59:04,717 - INFO - 127.0.0.1 - - [16/Apr/2026 13:59:04] "GET /api/feeding/list HTTP/1.1" 200 -
+2026-04-16 14:02:58,170 - INFO - 127.0.0.1 - - [16/Apr/2026 14:02:58] "PUT /api/feeding/update/1 HTTP/1.1" 200 -
+2026-04-16 14:08:22,220 - INFO -  * Detected change in 'C:\\Users\\USER\\Desktop\\Goat Farm\\models\\health_model.py', reloading
+2026-04-16 14:08:22,344 - INFO -  * Restarting with stat
+2026-04-16 14:08:22,803 - WARNING -  * Debugger is active!
+2026-04-16 14:08:22,805 - INFO -  * Debugger PIN: 139-420-596
+2026-04-16 14:08:39,188 - INFO -  * Detected change in 'C:\\Users\\USER\\Desktop\\Goat Farm\\services\\health_service.py', reloading
+2026-04-16 14:08:39,219 - INFO -  * Restarting with stat
+2026-04-16 14:08:39,501 - WARNING -  * Debugger is active!
+2026-04-16 14:08:39,502 - INFO -  * Debugger PIN: 139-420-596
+2026-04-16 14:08:57,218 - INFO -  * Detected change in 'C:\\Users\\USER\\Desktop\\Goat Farm\\routes\\health_routes.py', reloading
+2026-04-16 14:08:57,252 - INFO -  * Restarting with stat
+2026-04-16 14:08:57,497 - WARNING -  * Debugger is active!
+2026-04-16 14:08:57,499 - INFO -  * Debugger PIN: 139-420-596
+2026-04-16 14:09:41,237 - INFO -  * Detected change in 'C:\\Users\\USER\\Desktop\\Goat Farm\\app.py', reloading
+2026-04-16 14:09:41,279 - INFO -  * Restarting with stat
+2026-04-16 14:09:41,569 - WARNING -  * Debugger is active!
+2026-04-16 14:09:41,571 - INFO -  * Debugger PIN: 139-420-596
+2026-04-16 14:13:37,337 - INFO - package: mysql.connector.plugins
+2026-04-16 14:13:37,337 - INFO - plugin_name: caching_sha2_password
+2026-04-16 14:13:37,338 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-04-16 14:13:37,358 - INFO - 127.0.0.1 - - [16/Apr/2026 14:13:37] "POST /api/health/add HTTP/1.1" 200 -
+2026-04-16 14:13:50,705 - INFO - 127.0.0.1 - - [16/Apr/2026 14:13:50] "POST /api/health/add HTTP/1.1" 200 -
+2026-04-16 14:14:04,577 - INFO - 127.0.0.1 - - [16/Apr/2026 14:14:04] "POST /api/health/add HTTP/1.1" 200 -
+2026-04-16 14:14:13,169 - INFO - 127.0.0.1 - - [16/Apr/2026 14:14:13] "POST /api/health/add HTTP/1.1" 200 -
+2026-04-16 14:15:55,828 - INFO - 127.0.0.1 - - [16/Apr/2026 14:15:55] "[31m[1mGET /api/health/update/1 HTTP/1.1[0m" 405 -
+2026-04-16 14:16:02,905 - INFO - 127.0.0.1 - - [16/Apr/2026 14:16:02] "[31m[1mPOST /api/health/update/1 HTTP/1.1[0m" 405 -
+2026-04-16 14:16:07,316 - INFO - 127.0.0.1 - - [16/Apr/2026 14:16:07] "PUT /api/health/update/1 HTTP/1.1" 200 -
+2026-04-16 14:17:18,289 - INFO -  * Detected change in 'C:\\Users\\USER\\Desktop\\Goat Farm\\models\\expense_model.py', reloading
+2026-04-16 14:17:18,358 - INFO -  * Restarting with stat
+2026-04-16 14:17:19,977 - WARNING -  * Debugger is active!
+2026-04-16 14:17:19,979 - INFO -  * Debugger PIN: 139-420-596
+2026-04-16 14:17:35,587 - INFO -  * Detected change in 'C:\\Users\\USER\\Desktop\\Goat Farm\\services\\expense_service.py', reloading
+2026-04-16 14:17:35,700 - INFO -  * Restarting with stat
+2026-04-16 14:17:35,998 - WARNING -  * Debugger is active!
+2026-04-16 14:17:35,999 - INFO -  * Debugger PIN: 139-420-596
+2026-04-16 14:17:45,783 - INFO -  * Detected change in 'C:\\Users\\USER\\Desktop\\Goat Farm\\routes\\expense_routes.py', reloading
+2026-04-16 14:17:45,825 - INFO -  * Restarting with stat
+2026-04-16 14:17:46,192 - WARNING -  * Debugger is active!
+2026-04-16 14:17:46,194 - INFO -  * Debugger PIN: 139-420-596
+2026-04-16 14:18:04,075 - INFO -  * Detected change in 'C:\\Users\\USER\\Desktop\\Goat Farm\\models\\sales_model.py', reloading
+2026-04-16 14:18:04,188 - INFO -  * Restarting with stat
+2026-04-16 14:18:04,546 - WARNING -  * Debugger is active!
+2026-04-16 14:18:04,548 - INFO -  * Debugger PIN: 139-420-596
+2026-04-16 14:18:15,009 - INFO -  * Detected change in 'C:\\Users\\USER\\Desktop\\Goat Farm\\services\\sales_service.py', reloading
+2026-04-16 14:18:15,124 - INFO -  * Restarting with stat
+2026-04-16 14:18:15,729 - WARNING -  * Debugger is active!
+2026-04-16 14:18:15,732 - INFO -  * Debugger PIN: 139-420-596
+2026-04-16 14:18:25,484 - INFO -  * Detected change in 'C:\\Users\\USER\\Desktop\\Goat Farm\\routes\\sales_routes.py', reloading
+2026-04-16 14:18:25,518 - INFO -  * Restarting with stat
+2026-04-16 14:18:25,761 - WARNING -  * Debugger is active!
+2026-04-16 14:18:25,763 - INFO -  * Debugger PIN: 139-420-596
+2026-04-16 14:18:57,232 - INFO -  * Detected change in 'C:\\Users\\USER\\Desktop\\Goat Farm\\services\\dashboard_service.py', reloading
+2026-04-16 14:18:57,370 - INFO -  * Restarting with stat
+2026-04-16 14:18:57,791 - WARNING -  * Debugger is active!
+2026-04-16 14:18:57,793 - INFO -  * Debugger PIN: 139-420-596
+2026-04-16 14:19:07,298 - INFO -  * Detected change in 'C:\\Users\\USER\\Desktop\\Goat Farm\\routes\\dashboard_routes.py', reloading
+2026-04-16 14:19:07,334 - INFO -  * Restarting with stat
+2026-04-16 14:19:07,623 - WARNING -  * Debugger is active!
+2026-04-16 14:19:07,625 - INFO -  * Debugger PIN: 139-420-596
+2026-04-16 14:19:37,875 - INFO -  * Detected change in 'C:\\Users\\USER\\Desktop\\Goat Farm\\app.py', reloading
+2026-04-16 14:19:37,983 - INFO -  * Restarting with stat
+2026-04-16 14:19:38,400 - WARNING -  * Debugger is active!
+2026-04-16 14:19:38,402 - INFO -  * Debugger PIN: 139-420-596
+2026-04-16 14:21:04,642 - INFO - 127.0.0.1 - - [16/Apr/2026 14:21:04] "[31m[1mGET /api/expense/add HTTP/1.1[0m" 405 -
+2026-04-16 14:21:11,159 - INFO - package: mysql.connector.plugins
+2026-04-16 14:21:11,160 - INFO - plugin_name: caching_sha2_password
+2026-04-16 14:21:11,160 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-04-16 14:21:11,181 - INFO - 127.0.0.1 - - [16/Apr/2026 14:21:11] "POST /api/expense/add HTTP/1.1" 200 -
+2026-04-16 14:22:31,484 - INFO - 127.0.0.1 - - [16/Apr/2026 14:22:31] "POST /api/sales/add HTTP/1.1" 200 -
+2026-04-16 14:22:40,754 - INFO - 127.0.0.1 - - [16/Apr/2026 14:22:40] "POST /api/sales/add HTTP/1.1" 200 -
+2026-04-16 14:23:23,540 - INFO - 127.0.0.1 - - [16/Apr/2026 14:23:23] "GET /api/dashboard HTTP/1.1" 200 -
+2026-04-16 14:25:07,638 - INFO -  * Detected change in 'C:\\Users\\USER\\Desktop\\Goat Farm\\services\\dashboard_service.py', reloading
+2026-04-16 14:25:07,675 - INFO -  * Restarting with stat
+2026-04-16 14:25:08,027 - WARNING -  * Debugger is active!
+2026-04-16 14:25:08,030 - INFO -  * Debugger PIN: 139-420-596
+2026-04-16 14:25:13,545 - INFO - package: mysql.connector.plugins
+2026-04-16 14:25:13,545 - INFO - plugin_name: caching_sha2_password
+2026-04-16 14:25:13,546 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-04-16 14:25:14,388 - INFO - 127.0.0.1 - - [16/Apr/2026 14:25:14] "GET /api/dashboard HTTP/1.1" 200 -
+2026-04-16 14:28:29,348 - INFO -  * Detected change in 'C:\\Users\\USER\\Desktop\\Goat Farm\\models\\user_model.py', reloading
+2026-04-16 14:28:29,385 - INFO -  * Restarting with stat
+2026-04-16 14:28:29,722 - WARNING -  * Debugger is active!
+2026-04-16 14:28:29,725 - INFO -  * Debugger PIN: 139-420-596
+2026-04-16 14:29:02,834 - INFO -  * Detected change in 'C:\\Users\\USER\\Desktop\\Goat Farm\\services\\user_service.py', reloading
+2026-04-16 14:29:02,941 - INFO -  * Restarting with stat
+2026-04-16 14:29:03,284 - WARNING -  * Debugger is active!
+2026-04-16 14:29:03,286 - INFO -  * Debugger PIN: 139-420-596
+2026-04-16 14:29:13,976 - INFO -  * Detected change in 'C:\\Users\\USER\\Desktop\\Goat Farm\\routes\\auth_routes.py', reloading
+2026-04-16 14:29:14,012 - INFO -  * Restarting with stat
+2026-04-16 14:29:14,268 - WARNING -  * Debugger is active!
+2026-04-16 14:29:14,270 - INFO -  * Debugger PIN: 139-420-596
+2026-04-16 14:36:33,033 - INFO -  * Detected change in 'C:\\Users\\USER\\Desktop\\Goat Farm\\app.py', reloading
+2026-04-16 14:36:33,066 - INFO -  * Restarting with stat
+2026-04-16 14:36:33,350 - WARNING -  * Debugger is active!
+2026-04-16 14:36:33,352 - INFO -  * Debugger PIN: 139-420-596
+2026-04-16 14:37:16,512 - INFO - package: mysql.connector.plugins
+2026-04-16 14:37:16,512 - INFO - plugin_name: caching_sha2_password
+2026-04-16 14:37:16,512 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-04-16 14:37:16,532 - INFO - 127.0.0.1 - - [16/Apr/2026 14:37:16] "POST /api/user/create HTTP/1.1" 200 -
+2026-04-16 14:38:32,492 - INFO - 127.0.0.1 - - [16/Apr/2026 14:38:32] "POST /api/login HTTP/1.1" 200 -
+2026-04-16 14:38:38,050 - INFO - 127.0.0.1 - - [16/Apr/2026 14:38:38] "POST /api/login HTTP/1.1" 200 -
