@@ -25,11 +25,21 @@ def get_base_dir():
     return Path(__file__).resolve().parent
 
 
-BASE_DIR = get_base_dir()
+# BASE_DIR = get_base_dir()
+# STATIC_DIR = BASE_DIR / "static"
+# FRONTEND_DIR = STATIC_DIR / "frontend"
+if getattr(sys, "frozen", False):
+    BASE_DIR = Path(sys._MEIPASS)
+else:
+    BASE_DIR = Path(__file__).resolve().parent
+
 STATIC_DIR = BASE_DIR / "static"
 FRONTEND_DIR = STATIC_DIR / "frontend"
 FRONTEND_INDEX = FRONTEND_DIR / "index.html"
 UPLOAD_DIR = STATIC_DIR / "uploads"
+
+print("Frontend Path:", FRONTEND_DIR)
+print("Index Exists:", FRONTEND_INDEX.exists())
 
 app = Flask(
     __name__,
@@ -72,27 +82,17 @@ def serve_frontend_assets(filename):
 @app.route("/", defaults={"path": ""})
 @app.route("/<path:path>")
 def serve_react_app(path):
+    # ✅ Allow API routes (Flask will handle them)
     if path.startswith("api/"):
         return {"error": "API route not found"}, 404
 
-    if path.startswith("static/"):
-        relative_path = path.removeprefix("static/")
-        static_file = STATIC_DIR / relative_path
-        if static_file.exists() and static_file.is_file():
-            return send_from_directory(static_file.parent, static_file.name)
-        return {"error": "Static file not found"}, 404
+    # ✅ Serve React static files (JS, CSS, images)
+    full_path = FRONTEND_DIR / path
+    if path != "" and full_path.exists() and full_path.is_file():
+        return send_from_directory(full_path.parent, full_path.name)
 
-    requested_file = FRONTEND_DIR / path
-    if path and requested_file.exists() and requested_file.is_file():
-        return send_from_directory(requested_file.parent, requested_file.name)
-
-    if FRONTEND_INDEX.exists():
-        return send_from_directory(FRONTEND_DIR, "index.html")
-
-    return {
-        "error": "Frontend build not found. Run the frontend build and copy it into static/frontend."
-    }, 500
-
+    # ✅ For all other routes, return React app
+    return send_from_directory(FRONTEND_DIR, "index.html")
 
 def open_browser():
     time.sleep(1.2)

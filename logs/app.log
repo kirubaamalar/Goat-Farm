@@ -494,3 +494,25 @@
 2026-04-16 17:19:39,214 - INFO - 127.0.0.1 - - [16/Apr/2026 17:19:39] "GET /api/dashboard HTTP/1.1" 200 -
 2026-04-16 17:19:39,513 - INFO - 127.0.0.1 - - [16/Apr/2026 17:19:39] "GET /api/expense/list HTTP/1.1" 200 -
 2026-04-16 17:19:39,514 - INFO - 127.0.0.1 - - [16/Apr/2026 17:19:39] "GET /api/health/vaccination-due HTTP/1.1" 200 -
+2026-04-16 17:41:54,363 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-16 17:41:54,364 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-16 17:41:56,006 - INFO - 127.0.0.1 - - [16/Apr/2026 17:41:56] "[36mGET / HTTP/1.1[0m" 304 -
+2026-04-16 17:41:56,226 - INFO - 127.0.0.1 - - [16/Apr/2026 17:41:56] "[36mGET /assets/index-BUcoV2qK.css HTTP/1.1[0m" 304 -
+2026-04-16 17:41:56,244 - INFO - 127.0.0.1 - - [16/Apr/2026 17:41:56] "[36mGET /assets/index-N3kcXZSq.js HTTP/1.1[0m" 304 -
+2026-04-16 17:45:17,645 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-16 17:45:17,645 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-16 17:45:19,241 - INFO - 127.0.0.1 - - [16/Apr/2026 17:45:19] "[36mGET / HTTP/1.1[0m" 304 -
+2026-04-16 17:45:19,355 - INFO - 127.0.0.1 - - [16/Apr/2026 17:45:19] "[36mGET /assets/index-BUcoV2qK.css HTTP/1.1[0m" 304 -
+2026-04-16 17:45:19,489 - INFO - 127.0.0.1 - - [16/Apr/2026 17:45:19] "[36mGET /assets/index-N3kcXZSq.js HTTP/1.1[0m" 304 -
+2026-04-16 17:45:34,633 - INFO - 127.0.0.1 - - [16/Apr/2026 17:45:34] "POST /api/login HTTP/1.1" 200 -
+2026-04-16 17:45:34,980 - INFO - 127.0.0.1 - - [16/Apr/2026 17:45:34] "GET /api/health/vaccination-due HTTP/1.1" 200 -
+2026-04-16 17:45:34,982 - INFO - 127.0.0.1 - - [16/Apr/2026 17:45:34] "GET /api/expense/list HTTP/1.1" 200 -
+2026-04-16 17:45:34,998 - INFO - 127.0.0.1 - - [16/Apr/2026 17:45:34] "GET /api/dashboard HTTP/1.1" 200 -
+2026-04-16 17:50:44,528 - INFO - 127.0.0.1 - - [16/Apr/2026 17:50:44] "[36mGET / HTTP/1.1[0m" 304 -
+2026-04-16 17:50:44,769 - INFO - 127.0.0.1 - - [16/Apr/2026 17:50:44] "[36mGET /assets/index-BUcoV2qK.css HTTP/1.1[0m" 304 -
+2026-04-16 17:50:44,870 - INFO - 127.0.0.1 - - [16/Apr/2026 17:50:44] "[36mGET /assets/index-N3kcXZSq.js HTTP/1.1[0m" 304 -
+2026-04-16 17:50:44,935 - INFO - 127.0.0.1 - - [16/Apr/2026 17:50:44] "GET /api/dashboard HTTP/1.1" 200 -
+2026-04-16 17:50:45,241 - INFO - 127.0.0.1 - - [16/Apr/2026 17:50:45] "GET /api/expense/list HTTP/1.1" 200 -
+2026-04-16 17:50:45,242 - INFO - 127.0.0.1 - - [16/Apr/2026 17:50:45] "GET /api/health/vaccination-due HTTP/1.1" 200 -
