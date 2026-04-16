@@ -1,6 +1,8 @@
 from flask import Flask
 from config import Config
 import os
+from flask_cors import CORS   # ✅ ADD THIS
+
 from routes.goat_routes import goat_bp
 from routes.feeding_routes import feeding_bp
 from routes.health_routes import health_bp
@@ -11,13 +13,16 @@ from routes.auth_routes import auth_bp
 
 app = Flask(__name__)
 
+# ✅ ENABLE CORS (THIS FIXES YOUR ERROR)
+CORS(app)
+
 # Set upload folder
 app.config["UPLOAD_FOLDER"] = Config.UPLOAD_FOLDER
 
 # Ensure upload folder exists
 os.makedirs(app.config["UPLOAD_FOLDER"], exist_ok=True)
 
-# ✅ REGISTER ROUTE HERE
+# Register routes
 app.register_blueprint(goat_bp)
 app.register_blueprint(feeding_bp)
 app.register_blueprint(health_bp)
