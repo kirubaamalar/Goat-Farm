@@ -422,3 +422,27 @@
 2026-04-16 16:16:10,199 - INFO - 127.0.0.1 - - [16/Apr/2026 16:16:10] "GET /api/goat/list HTTP/1.1" 200 -
 2026-04-16 16:16:10,297 - INFO - 127.0.0.1 - - [16/Apr/2026 16:16:10] "GET /api/sales/list HTTP/1.1" 200 -
 2026-04-16 16:16:10,605 - INFO - 127.0.0.1 - - [16/Apr/2026 16:16:10] "GET /api/goat/list HTTP/1.1" 200 -
+2026-04-16 16:28:00,904 - INFO -  * Detected change in 'C:\\Users\\USER\\Desktop\\Goat Farm\\app.py', reloading
+2026-04-16 16:28:00,943 - INFO -  * Restarting with stat
+2026-04-16 16:29:54,751 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-16 16:29:54,751 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-16 16:30:38,764 - INFO - 127.0.0.1 - - [16/Apr/2026 16:30:38] "GET / HTTP/1.1" 200 -
+2026-04-16 16:30:38,788 - INFO - 127.0.0.1 - - [16/Apr/2026 16:30:38] "GET /assets/index-N3kcXZSq.js HTTP/1.1" 200 -
+2026-04-16 16:30:39,107 - INFO - 127.0.0.1 - - [16/Apr/2026 16:30:39] "GET /assets/index-BUcoV2qK.css HTTP/1.1" 200 -
+2026-04-16 16:30:41,851 - INFO - 127.0.0.1 - - [16/Apr/2026 16:30:41] "GET /favicon.svg HTTP/1.1" 200 -
+2026-04-16 16:30:53,494 - INFO - package: mysql.connector.plugins
+2026-04-16 16:30:53,494 - INFO - plugin_name: caching_sha2_password
+2026-04-16 16:30:53,494 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-04-16 16:30:53,505 - INFO - 127.0.0.1 - - [16/Apr/2026 16:30:53] "POST /api/login HTTP/1.1" 200 -
+2026-04-16 16:30:54,186 - INFO - 127.0.0.1 - - [16/Apr/2026 16:30:54] "GET /api/expense/list HTTP/1.1" 200 -
+2026-04-16 16:30:54,188 - INFO - 127.0.0.1 - - [16/Apr/2026 16:30:54] "GET /api/health/vaccination-due HTTP/1.1" 200 -
+2026-04-16 16:30:54,506 - INFO - 127.0.0.1 - - [16/Apr/2026 16:30:54] "GET /api/dashboard HTTP/1.1" 200 -
+2026-04-16 16:31:00,601 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-16 16:31:00,601 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-16 16:31:02,418 - INFO - 127.0.0.1 - - [16/Apr/2026 16:31:02] "GET / HTTP/1.1" 200 -
+2026-04-16 16:31:02,662 - INFO - 127.0.0.1 - - [16/Apr/2026 16:31:02] "GET /assets/index-BUcoV2qK.css HTTP/1.1" 200 -
+2026-04-16 16:31:02,754 - INFO - 127.0.0.1 - - [16/Apr/2026 16:31:02] "GET /assets/index-N3kcXZSq.js HTTP/1.1" 200 -
+2026-04-16 16:31:02,869 - INFO - 127.0.0.1 - - [16/Apr/2026 16:31:02] "GET /favicon.svg HTTP/1.1" 200 -
+2026-04-16 16:31:23,776 - INFO - 127.0.0.1 - - [16/Apr/2026 16:31:23] "GET / HTTP/1.1" 200 -
