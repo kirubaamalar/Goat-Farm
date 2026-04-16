@@ -7,7 +7,7 @@ def insert_health(values):
     query = """
     INSERT INTO health
     (goat_id, issue, medicine, vaccination_date, next_due_date, notes, created_on, updated_on, is_active)
-    VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s)
+    VALUES (?,?,?,?,?,?,?,?,?)
     """
 
     cursor.execute(query, values)
@@ -19,10 +19,11 @@ def insert_health(values):
 
 def fetch_health():
     conn = get_db_connection()
-    cursor = conn.cursor(dictionary=True)
+    cursor = conn.cursor()
 
     cursor.execute("SELECT * FROM health WHERE is_active=1")
-    data = cursor.fetchall()
+    rows = cursor.fetchall()
+    data = [dict(row) for row in rows] if rows else []
 
     cursor.close()
     conn.close()
@@ -36,8 +37,8 @@ def update_health_by_id(health_id, values):
 
     query = """
     UPDATE health 
-    SET goat_id=%s, issue=%s, medicine=%s, vaccination_date=%s, next_due_date=%s, notes=%s, updated_on=%s
-    WHERE id=%s AND is_active=1
+    SET goat_id=?, issue=?, medicine=?, vaccination_date=?, next_due_date=?, notes=?, updated_on=?
+    WHERE id=? AND is_active=1
     """
 
     cursor.execute(query, (*values, health_id))
@@ -51,7 +52,7 @@ def delete_health_by_id(health_id):
     conn = get_db_connection()
     cursor = conn.cursor()
 
-    cursor.execute("UPDATE health SET is_active=0 WHERE id=%s", (health_id,))
+    cursor.execute("UPDATE health SET is_active=0 WHERE id=?", (health_id,))
     conn.commit()
 
     cursor.close()
@@ -61,14 +62,15 @@ def delete_health_by_id(health_id):
 # 🔥 IMPORTANT: Vaccination Due
 def fetch_vaccination_due():
     conn = get_db_connection()
-    cursor = conn.cursor(dictionary=True)
+    cursor = conn.cursor()
 
     cursor.execute("""
         SELECT * FROM health
-        WHERE next_due_date <= CURDATE() AND is_active=1
+        WHERE next_due_date <= DATE('now') AND is_active=1
     """)
-
-    data = cursor.fetchall()
+    
+    rows = cursor.fetchall()
+    data = [dict(row) for row in rows] if rows else []
 
     cursor.close()
     conn.close()

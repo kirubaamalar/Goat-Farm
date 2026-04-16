@@ -9,6 +9,7 @@ from flask import Flask, send_from_directory
 from flask_cors import CORS
 
 from config import Config
+from models.init_db import init_db
 
 from routes.goat_routes import goat_bp
 from routes.feeding_routes import feeding_bp
@@ -42,6 +43,9 @@ app.config["UPLOAD_FOLDER"] = str(UPLOAD_DIR)
 app.config["ENV"] = "production"
 
 os.makedirs(app.config["UPLOAD_FOLDER"], exist_ok=True)
+
+# Initialize database - create tables if not exist
+init_db()
 
 # Register routes
 app.register_blueprint(goat_bp)
