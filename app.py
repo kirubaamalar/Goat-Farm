@@ -124,6 +124,21 @@ def serve_favicon():
         return ("", 500)
 
 
+@app.route("/uploads/<path:filename>")
+def serve_uploads(filename):
+    """Serve uploaded goat photos"""
+    try:
+        upload_path = UPLOAD_DIR / filename
+        if upload_path.exists():
+            logger.debug(f"Serving upload: {filename}")
+            return send_from_directory(UPLOAD_DIR, filename)
+        logger.warning(f"Upload not found: {upload_path}")
+        return ("Upload not found", 404)
+    except Exception as e:
+        logger.error(f"Error serving upload {filename}: {e}")
+        return ("", 500)
+
+
 @app.route("/assets/<path:filename>")
 def serve_frontend_assets(filename):
     """Serve React assets (JS, CSS, images from /assets folder)"""

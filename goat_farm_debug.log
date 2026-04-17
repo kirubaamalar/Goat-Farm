@@ -1,0 +1,25 @@
+2026-04-17 16:54:55,691 - __main__ - INFO - Application starting...
+2026-04-17 16:54:55,692 - __main__ - INFO - Running as Python script. BASE_DIR: C:\Users\USER\Desktop\Goat Farm
+2026-04-17 16:54:55,692 - __main__ - INFO - STATIC_DIR: C:\Users\USER\Desktop\Goat Farm\static
+2026-04-17 16:54:55,692 - __main__ - INFO - STATIC_DIR exists: True
+2026-04-17 16:54:55,692 - __main__ - INFO - FRONTEND_DIR: C:\Users\USER\Desktop\Goat Farm\static\frontend
+2026-04-17 16:54:55,692 - __main__ - INFO - FRONTEND_DIR exists: True
+2026-04-17 16:54:55,693 - __main__ - INFO - FRONTEND_INDEX: C:\Users\USER\Desktop\Goat Farm\static\frontend\index.html
+2026-04-17 16:54:55,693 - __main__ - INFO - FRONTEND_INDEX exists: True
+2026-04-17 16:54:55,693 - __main__ - INFO - Files in C:\Users\USER\Desktop\Goat Farm\static\frontend: ['assets', 'favicon.svg', 'icons.svg', 'index.html']
+2026-04-17 16:54:55,694 - __main__ - INFO - Flask app initialized. Upload folder: C:\Users\USER\Desktop\Goat Farm\static\uploads
+2026-04-17 16:54:55,696 - __main__ - INFO - Database initialized
+2026-04-17 16:54:55,701 - __main__ - INFO - All blueprints registered
+2026-04-17 16:54:55,703 - __main__ - INFO - ================================================================================
+2026-04-17 16:54:55,703 - __main__ - INFO - STARTING GOAT FARM APPLICATION
+2026-04-17 16:54:55,703 - __main__ - INFO - ================================================================================
+2026-04-17 16:54:55,703 - __main__ - INFO - Running in: Python script mode
+2026-04-17 16:54:55,703 - __main__ - INFO - Base directory: C:\Users\USER\Desktop\Goat Farm
+2026-04-17 16:54:55,703 - __main__ - INFO - Frontend directory: C:\Users\USER\Desktop\Goat Farm\static\frontend
+2026-04-17 16:54:55,704 - __main__ - INFO - Server: http://127.0.0.1:5000
+2026-04-17 16:54:55,704 - __main__ - INFO - ================================================================================
+2026-04-17 16:54:56,905 - __main__ - INFO - Opening browser at http://localhost:5000
+2026-04-17 16:54:57,515 - __main__ - DEBUG - Serving asset: index-BUcoV2qK.css
+2026-04-17 16:54:57,596 - __main__ - DEBUG - Serving asset: index-N3kcXZSq.js
+2026-04-17 16:55:11,611 - __main__ - DEBUG - Serving upload: G001_BonTon_Softwares_logo_on_dark_backdrop.png
+2026-04-17 16:55:25,629 - __main__ - DEBUG - Serving upload: G001_BonTon_Softwares_logo_on_dark_backdrop.png

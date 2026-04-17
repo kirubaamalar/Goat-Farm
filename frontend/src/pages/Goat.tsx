@@ -37,6 +37,7 @@ export const GoatPage = () => {
   const [loading, setLoading] = useState(true)
   const [saving, setSaving] = useState(false)
   const [deleteTarget, setDeleteTarget] = useState<Goat | null>(null)
+  const [viewingPhotoGoat, setViewingPhotoGoat] = useState<Goat | null>(null)
   const { showToast } = useToast()
 
   const activeCount = useMemo(
@@ -280,11 +281,25 @@ export const GoatPage = () => {
                     </td>
                     <td className="px-4 py-3">
                       {goat.photo_url ? (
-                        <img
-                          src={getAssetUrl(goat.photo_url)}
-                          alt={goat.name}
-                          className="h-12 w-12 rounded-lg object-cover"
-                        />
+                        <button
+                          onClick={() => setViewingPhotoGoat(goat)}
+                          className="inline-flex items-center justify-center h-10 w-10 rounded-lg bg-blue-100 text-blue-600 hover:bg-blue-200 dark:bg-blue-900 dark:text-blue-300 dark:hover:bg-blue-800 transition-colors"
+                          title="View photo"
+                        >
+                          <svg
+                            className="h-5 w-5"
+                            fill="none"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeWidth={2}
+                              d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"
+                            />
+                          </svg>
+                        </button>
                       ) : (
                         <div className="text-xs text-gray-400">No image</div>
                       )}
@@ -331,6 +346,27 @@ export const GoatPage = () => {
         <p className="text-sm text-gray-600 dark:text-gray-300">
           Delete <span className="font-semibold">{deleteTarget?.name}</span>? This action will hide the record from active lists.
         </p>
+      </Modal>
+
+      <Modal
+        open={Boolean(viewingPhotoGoat)}
+        title={`Photo: ${viewingPhotoGoat?.name}`}
+        onClose={() => setViewingPhotoGoat(null)}
+        footer={
+          <Button variant="ghost" onClick={() => setViewingPhotoGoat(null)}>
+            Close
+          </Button>
+        }
+      >
+        {viewingPhotoGoat?.photo_url && (
+          <div className="flex justify-center">
+            <img
+              src={getAssetUrl(viewingPhotoGoat.photo_url)}
+              alt={viewingPhotoGoat.name}
+              className="max-w-full max-h-96 rounded-lg object-contain"
+            />
+          </div>
+        )}
       </Modal>
     </div>
   )

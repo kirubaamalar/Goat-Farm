@@ -516,3 +516,328 @@
 2026-04-16 17:50:44,935 - INFO - 127.0.0.1 - - [16/Apr/2026 17:50:44] "GET /api/dashboard HTTP/1.1" 200 -
 2026-04-16 17:50:45,241 - INFO - 127.0.0.1 - - [16/Apr/2026 17:50:45] "GET /api/expense/list HTTP/1.1" 200 -
 2026-04-16 17:50:45,242 - INFO - 127.0.0.1 - - [16/Apr/2026 17:50:45] "GET /api/health/vaccination-due HTTP/1.1" 200 -
+2026-04-17 16:18:02,009 - INFO - Application starting...
+2026-04-17 16:18:02,010 - INFO - Running as Python script. BASE_DIR: C:\Users\USER\Desktop\Goat Farm
+2026-04-17 16:18:02,010 - INFO - STATIC_DIR: C:\Users\USER\Desktop\Goat Farm\static
+2026-04-17 16:18:02,011 - INFO - STATIC_DIR exists: True
+2026-04-17 16:18:02,011 - INFO - FRONTEND_DIR: C:\Users\USER\Desktop\Goat Farm\static\frontend
+2026-04-17 16:18:02,011 - INFO - FRONTEND_DIR exists: True
+2026-04-17 16:18:02,011 - INFO - FRONTEND_INDEX: C:\Users\USER\Desktop\Goat Farm\static\frontend\index.html
+2026-04-17 16:18:02,012 - INFO - FRONTEND_INDEX exists: True
+2026-04-17 16:18:02,012 - INFO - Files in C:\Users\USER\Desktop\Goat Farm\static\frontend: ['assets', 'favicon.svg', 'icons.svg', 'index.html']
+2026-04-17 16:18:02,014 - INFO - Flask app initialized. Upload folder: C:\Users\USER\Desktop\Goat Farm\static\uploads
+2026-04-17 16:18:02,019 - INFO - Database initialized
+2026-04-17 16:18:02,029 - INFO - All blueprints registered
+2026-04-17 16:18:02,031 - INFO - ================================================================================
+2026-04-17 16:18:02,031 - INFO - STARTING GOAT FARM APPLICATION
+2026-04-17 16:18:02,032 - INFO - ================================================================================
+2026-04-17 16:18:02,032 - INFO - Running in: Python script mode
+2026-04-17 16:18:02,033 - INFO - Base directory: C:\Users\USER\Desktop\Goat Farm
+2026-04-17 16:18:02,033 - INFO - Frontend directory: C:\Users\USER\Desktop\Goat Farm\static\frontend
+2026-04-17 16:18:02,034 - INFO - Server: http://127.0.0.1:5000
+2026-04-17 16:18:02,034 - INFO - ================================================================================
+2026-04-17 16:18:02,069 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-17 16:18:02,069 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-17 16:18:03,237 - INFO - Opening browser at http://localhost:5000
+2026-04-17 16:18:03,846 - INFO - 127.0.0.1 - - [17/Apr/2026 16:18:03] "GET / HTTP/1.1" 200 -
+2026-04-17 16:18:04,003 - DEBUG - Serving asset: index-BUcoV2qK.css
+2026-04-17 16:18:04,004 - INFO - 127.0.0.1 - - [17/Apr/2026 16:18:04] "GET /assets/index-BUcoV2qK.css HTTP/1.1" 200 -
+2026-04-17 16:18:04,161 - DEBUG - Serving asset: index-N3kcXZSq.js
+2026-04-17 16:18:04,163 - INFO - 127.0.0.1 - - [17/Apr/2026 16:18:04] "GET /assets/index-N3kcXZSq.js HTTP/1.1" 200 -
+2026-04-17 16:18:04,250 - INFO - 127.0.0.1 - - [17/Apr/2026 16:18:04] "GET /api/dashboard HTTP/1.1" 200 -
+2026-04-17 16:18:04,552 - INFO - 127.0.0.1 - - [17/Apr/2026 16:18:04] "GET /api/expense/list HTTP/1.1" 200 -
+2026-04-17 16:18:04,553 - INFO - 127.0.0.1 - - [17/Apr/2026 16:18:04] "GET /api/health/vaccination-due HTTP/1.1" 200 -
+2026-04-17 16:18:06,306 - INFO - 127.0.0.1 - - [17/Apr/2026 16:18:06] "POST /api/login HTTP/1.1" 200 -
+2026-04-17 16:18:06,587 - INFO - 127.0.0.1 - - [17/Apr/2026 16:18:06] "GET /api/dashboard HTTP/1.1" 200 -
+2026-04-17 16:18:06,635 - INFO - 127.0.0.1 - - [17/Apr/2026 16:18:06] "GET /api/expense/list HTTP/1.1" 200 -
+2026-04-17 16:18:06,636 - INFO - 127.0.0.1 - - [17/Apr/2026 16:18:06] "GET /api/health/vaccination-due HTTP/1.1" 200 -
+2026-04-17 16:28:18,264 - INFO - 127.0.0.1 - - [17/Apr/2026 16:28:18] "GET / HTTP/1.1" 200 -
+2026-04-17 16:28:18,581 - DEBUG - Serving asset: index-BUcoV2qK.css
+2026-04-17 16:28:18,583 - INFO - 127.0.0.1 - - [17/Apr/2026 16:28:18] "GET /assets/index-BUcoV2qK.css HTTP/1.1" 200 -
+2026-04-17 16:28:18,628 - DEBUG - Serving asset: index-N3kcXZSq.js
+2026-04-17 16:28:18,631 - INFO - 127.0.0.1 - - [17/Apr/2026 16:28:18] "GET /assets/index-N3kcXZSq.js HTTP/1.1" 200 -
+2026-04-17 16:28:19,044 - INFO - 127.0.0.1 - - [17/Apr/2026 16:28:19] "GET /api/expense/list HTTP/1.1" 200 -
+2026-04-17 16:28:19,044 - INFO - 127.0.0.1 - - [17/Apr/2026 16:28:19] "GET /api/health/vaccination-due HTTP/1.1" 200 -
+2026-04-17 16:28:19,060 - INFO - 127.0.0.1 - - [17/Apr/2026 16:28:19] "GET /api/dashboard HTTP/1.1" 200 -
+2026-04-17 16:29:51,635 - INFO - 127.0.0.1 - - [17/Apr/2026 16:29:51] "POST /api/login HTTP/1.1" 200 -
+2026-04-17 16:29:55,260 - INFO - 127.0.0.1 - - [17/Apr/2026 16:29:55] "POST /api/login HTTP/1.1" 200 -
+2026-04-17 16:29:55,601 - INFO - 127.0.0.1 - - [17/Apr/2026 16:29:55] "GET /api/expense/list HTTP/1.1" 200 -
+2026-04-17 16:29:55,602 - INFO - 127.0.0.1 - - [17/Apr/2026 16:29:55] "GET /api/health/vaccination-due HTTP/1.1" 200 -
+2026-04-17 16:29:55,612 - INFO - 127.0.0.1 - - [17/Apr/2026 16:29:55] "GET /api/dashboard HTTP/1.1" 200 -
+2026-04-17 16:29:57,773 - INFO - 127.0.0.1 - - [17/Apr/2026 16:29:57] "GET /api/goat/list HTTP/1.1" 200 -
+2026-04-17 16:29:58,100 - INFO - 127.0.0.1 - - [17/Apr/2026 16:29:58] "GET /uploads/G001_BonTon_Softwares_logo_on_dark_backdrop.png HTTP/1.1" 200 -
+2026-04-17 16:30:01,696 - INFO - 127.0.0.1 - - [17/Apr/2026 16:30:01] "GET /api/feeding/list HTTP/1.1" 200 -
+2026-04-17 16:30:02,002 - INFO - 127.0.0.1 - - [17/Apr/2026 16:30:02] "GET /api/goat/list HTTP/1.1" 200 -
+2026-04-17 16:30:03,033 - INFO - 127.0.0.1 - - [17/Apr/2026 16:30:03] "GET /api/health/vaccination-due HTTP/1.1" 200 -
+2026-04-17 16:30:03,034 - INFO - 127.0.0.1 - - [17/Apr/2026 16:30:03] "GET /api/goat/list HTTP/1.1" 200 -
+2026-04-17 16:30:03,035 - INFO - 127.0.0.1 - - [17/Apr/2026 16:30:03] "GET /api/health/list HTTP/1.1" 200 -
+2026-04-17 16:30:03,978 - INFO - 127.0.0.1 - - [17/Apr/2026 16:30:03] "GET /api/goat/list HTTP/1.1" 200 -
+2026-04-17 16:30:04,289 - INFO - 127.0.0.1 - - [17/Apr/2026 16:30:04] "[36mGET /uploads/G001_BonTon_Softwares_logo_on_dark_backdrop.png HTTP/1.1[0m" 304 -
+2026-04-17 16:32:05,976 - INFO - Application starting...
+2026-04-17 16:32:05,976 - INFO - Running as Python script. BASE_DIR: C:\Users\USER\Desktop\Goat Farm
+2026-04-17 16:32:05,976 - INFO - STATIC_DIR: C:\Users\USER\Desktop\Goat Farm\static
+2026-04-17 16:32:05,976 - INFO - STATIC_DIR exists: True
+2026-04-17 16:32:05,977 - INFO - FRONTEND_DIR: C:\Users\USER\Desktop\Goat Farm\static\frontend
+2026-04-17 16:32:05,977 - INFO - FRONTEND_DIR exists: True
+2026-04-17 16:32:05,977 - INFO - FRONTEND_INDEX: C:\Users\USER\Desktop\Goat Farm\static\frontend\index.html
+2026-04-17 16:32:05,977 - INFO - FRONTEND_INDEX exists: True
+2026-04-17 16:32:05,977 - INFO - Files in C:\Users\USER\Desktop\Goat Farm\static\frontend: ['assets', 'favicon.svg', 'icons.svg', 'index.html']
+2026-04-17 16:32:05,978 - INFO - Flask app initialized. Upload folder: C:\Users\USER\Desktop\Goat Farm\static\uploads
+2026-04-17 16:32:05,980 - INFO - Database initialized
+2026-04-17 16:32:05,986 - INFO - All blueprints registered
+2026-04-17 16:32:05,989 - INFO - ================================================================================
+2026-04-17 16:32:05,989 - INFO - STARTING GOAT FARM APPLICATION
+2026-04-17 16:32:05,989 - INFO - ================================================================================
+2026-04-17 16:32:05,990 - INFO - Running in: Python script mode
+2026-04-17 16:32:05,990 - INFO - Base directory: C:\Users\USER\Desktop\Goat Farm
+2026-04-17 16:32:05,990 - INFO - Frontend directory: C:\Users\USER\Desktop\Goat Farm\static\frontend
+2026-04-17 16:32:05,990 - INFO - Server: http://127.0.0.1:5000
+2026-04-17 16:32:05,990 - INFO - ================================================================================
+2026-04-17 16:32:06,005 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-17 16:32:06,006 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-17 16:32:07,191 - INFO - Opening browser at http://localhost:5000
+2026-04-17 16:32:07,715 - INFO - 127.0.0.1 - - [17/Apr/2026 16:32:07] "[36mGET / HTTP/1.1[0m" 304 -
+2026-04-17 16:32:07,909 - DEBUG - Serving asset: index-BUcoV2qK.css
+2026-04-17 16:32:07,911 - INFO - 127.0.0.1 - - [17/Apr/2026 16:32:07] "[36mGET /assets/index-BUcoV2qK.css HTTP/1.1[0m" 304 -
+2026-04-17 16:32:08,042 - DEBUG - Serving asset: index-N3kcXZSq.js
+2026-04-17 16:32:08,045 - INFO - 127.0.0.1 - - [17/Apr/2026 16:32:08] "[36mGET /assets/index-N3kcXZSq.js HTTP/1.1[0m" 304 -
+2026-04-17 16:32:08,123 - INFO - 127.0.0.1 - - [17/Apr/2026 16:32:08] "GET /api/dashboard HTTP/1.1" 200 -
+2026-04-17 16:32:08,428 - INFO - 127.0.0.1 - - [17/Apr/2026 16:32:08] "GET /api/expense/list HTTP/1.1" 200 -
+2026-04-17 16:32:08,428 - INFO - 127.0.0.1 - - [17/Apr/2026 16:32:08] "GET /api/health/vaccination-due HTTP/1.1" 200 -
+2026-04-17 16:32:10,548 - INFO - 127.0.0.1 - - [17/Apr/2026 16:32:10] "POST /api/login HTTP/1.1" 200 -
+2026-04-17 16:32:10,822 - INFO - 127.0.0.1 - - [17/Apr/2026 16:32:10] "GET /api/dashboard HTTP/1.1" 200 -
+2026-04-17 16:32:10,884 - INFO - 127.0.0.1 - - [17/Apr/2026 16:32:10] "GET /api/expense/list HTTP/1.1" 200 -
+2026-04-17 16:32:10,887 - INFO - 127.0.0.1 - - [17/Apr/2026 16:32:10] "GET /api/health/vaccination-due HTTP/1.1" 200 -
+2026-04-17 16:32:27,669 - INFO - 127.0.0.1 - - [17/Apr/2026 16:32:27] "GET /api/goat/list HTTP/1.1" 200 -
+2026-04-17 16:32:27,981 - DEBUG - Serving upload: G001_BonTon_Softwares_logo_on_dark_backdrop.png
+2026-04-17 16:32:27,988 - INFO - 127.0.0.1 - - [17/Apr/2026 16:32:27] "GET /uploads/G001_BonTon_Softwares_logo_on_dark_backdrop.png HTTP/1.1" 200 -
+2026-04-17 16:38:50,199 - INFO - 127.0.0.1 - - [17/Apr/2026 16:38:50] "GET /goats HTTP/1.1" 200 -
+2026-04-17 16:38:50,214 - DEBUG - Serving asset: index-N3kcXZSq.js
+2026-04-17 16:38:50,216 - INFO - 127.0.0.1 - - [17/Apr/2026 16:38:50] "[36mGET /assets/index-N3kcXZSq.js HTTP/1.1[0m" 304 -
+2026-04-17 16:38:50,451 - DEBUG - Serving asset: index-BUcoV2qK.css
+2026-04-17 16:38:50,454 - INFO - 127.0.0.1 - - [17/Apr/2026 16:38:50] "[36mGET /assets/index-BUcoV2qK.css HTTP/1.1[0m" 304 -
+2026-04-17 16:38:50,802 - INFO - 127.0.0.1 - - [17/Apr/2026 16:38:50] "GET /api/goat/list HTTP/1.1" 200 -
+2026-04-17 16:38:50,801 - DEBUG - Serving favicon from C:\Users\USER\Desktop\Goat Farm\static\frontend\favicon.svg
+2026-04-17 16:38:50,805 - INFO - 127.0.0.1 - - [17/Apr/2026 16:38:50] "[36mGET /favicon.svg HTTP/1.1[0m" 304 -
+2026-04-17 16:38:51,066 - DEBUG - Serving favicon from C:\Users\USER\Desktop\Goat Farm\static\frontend\favicon.svg
+2026-04-17 16:38:51,068 - INFO - 127.0.0.1 - - [17/Apr/2026 16:38:51] "[36mGET /favicon.svg HTTP/1.1[0m" 304 -
+2026-04-17 16:38:52,108 - INFO - 127.0.0.1 - - [17/Apr/2026 16:38:52] "POST /api/login HTTP/1.1" 200 -
+2026-04-17 16:38:52,441 - INFO - 127.0.0.1 - - [17/Apr/2026 16:38:52] "GET /api/expense/list HTTP/1.1" 200 -
+2026-04-17 16:38:52,442 - INFO - 127.0.0.1 - - [17/Apr/2026 16:38:52] "GET /api/health/vaccination-due HTTP/1.1" 200 -
+2026-04-17 16:38:52,465 - INFO - 127.0.0.1 - - [17/Apr/2026 16:38:52] "GET /api/dashboard HTTP/1.1" 200 -
+2026-04-17 16:38:55,589 - INFO - 127.0.0.1 - - [17/Apr/2026 16:38:55] "GET /api/goat/list HTTP/1.1" 200 -
+2026-04-17 16:38:55,912 - DEBUG - Serving upload: G001_BonTon_Softwares_logo_on_dark_backdrop.png
+2026-04-17 16:38:55,915 - INFO - 127.0.0.1 - - [17/Apr/2026 16:38:55] "[36mGET /uploads/G001_BonTon_Softwares_logo_on_dark_backdrop.png HTTP/1.1[0m" 304 -
+2026-04-17 16:39:14,414 - INFO - 127.0.0.1 - - [17/Apr/2026 16:39:14] "[36mGET /goats HTTP/1.1[0m" 304 -
+2026-04-17 16:39:14,730 - DEBUG - Serving asset: index-N3kcXZSq.js
+2026-04-17 16:39:14,733 - INFO - 127.0.0.1 - - [17/Apr/2026 16:39:14] "[36mGET /assets/index-N3kcXZSq.js HTTP/1.1[0m" 304 -
+2026-04-17 16:39:14,730 - DEBUG - Serving asset: index-BUcoV2qK.css
+2026-04-17 16:39:14,736 - INFO - 127.0.0.1 - - [17/Apr/2026 16:39:14] "[36mGET /assets/index-BUcoV2qK.css HTTP/1.1[0m" 304 -
+2026-04-17 16:39:15,074 - DEBUG - Serving favicon from C:\Users\USER\Desktop\Goat Farm\static\frontend\favicon.svg
+2026-04-17 16:39:15,077 - INFO - 127.0.0.1 - - [17/Apr/2026 16:39:15] "[36mGET /favicon.svg HTTP/1.1[0m" 304 -
+2026-04-17 16:39:15,078 - INFO - 127.0.0.1 - - [17/Apr/2026 16:39:15] "GET /api/goat/list HTTP/1.1" 200 -
+2026-04-17 16:39:15,322 - DEBUG - Serving favicon from C:\Users\USER\Desktop\Goat Farm\static\frontend\favicon.svg
+2026-04-17 16:39:15,324 - INFO - 127.0.0.1 - - [17/Apr/2026 16:39:15] "[36mGET /favicon.svg HTTP/1.1[0m" 304 -
+2026-04-17 16:39:20,041 - INFO - Application starting...
+2026-04-17 16:39:20,042 - INFO - Running as Python script. BASE_DIR: C:\Users\USER\Desktop\Goat Farm
+2026-04-17 16:39:20,043 - INFO - STATIC_DIR: C:\Users\USER\Desktop\Goat Farm\static
+2026-04-17 16:39:20,043 - INFO - STATIC_DIR exists: True
+2026-04-17 16:39:20,043 - INFO - FRONTEND_DIR: C:\Users\USER\Desktop\Goat Farm\static\frontend
+2026-04-17 16:39:20,044 - INFO - FRONTEND_DIR exists: True
+2026-04-17 16:39:20,044 - INFO - FRONTEND_INDEX: C:\Users\USER\Desktop\Goat Farm\static\frontend\index.html
+2026-04-17 16:39:20,045 - INFO - FRONTEND_INDEX exists: True
+2026-04-17 16:39:20,045 - INFO - Files in C:\Users\USER\Desktop\Goat Farm\static\frontend: ['assets', 'favicon.svg', 'icons.svg', 'index.html']
+2026-04-17 16:39:20,047 - INFO - Flask app initialized. Upload folder: C:\Users\USER\Desktop\Goat Farm\static\uploads
+2026-04-17 16:39:20,052 - INFO - Database initialized
+2026-04-17 16:39:20,064 - INFO - All blueprints registered
+2026-04-17 16:39:20,066 - INFO - ================================================================================
+2026-04-17 16:39:20,067 - INFO - STARTING GOAT FARM APPLICATION
+2026-04-17 16:39:20,067 - INFO - ================================================================================
+2026-04-17 16:39:20,068 - INFO - Running in: Python script mode
+2026-04-17 16:39:20,068 - INFO - Base directory: C:\Users\USER\Desktop\Goat Farm
+2026-04-17 16:39:20,068 - INFO - Frontend directory: C:\Users\USER\Desktop\Goat Farm\static\frontend
+2026-04-17 16:39:20,069 - INFO - Server: http://127.0.0.1:5000
+2026-04-17 16:39:20,069 - INFO - ================================================================================
+2026-04-17 16:39:20,090 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-17 16:39:20,090 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-17 16:39:21,271 - INFO - Opening browser at http://localhost:5000
+2026-04-17 16:39:21,723 - INFO - 127.0.0.1 - - [17/Apr/2026 16:39:21] "[36mGET / HTTP/1.1[0m" 304 -
+2026-04-17 16:39:21,788 - DEBUG - Serving asset: index-BUcoV2qK.css
+2026-04-17 16:39:21,790 - INFO - 127.0.0.1 - - [17/Apr/2026 16:39:21] "[36mGET /assets/index-BUcoV2qK.css HTTP/1.1[0m" 304 -
+2026-04-17 16:39:21,929 - DEBUG - Serving asset: index-N3kcXZSq.js
+2026-04-17 16:39:21,931 - INFO - 127.0.0.1 - - [17/Apr/2026 16:39:21] "[36mGET /assets/index-N3kcXZSq.js HTTP/1.1[0m" 304 -
+2026-04-17 16:39:22,050 - INFO - 127.0.0.1 - - [17/Apr/2026 16:39:22] "GET /api/dashboard HTTP/1.1" 200 -
+2026-04-17 16:39:22,297 - INFO - 127.0.0.1 - - [17/Apr/2026 16:39:22] "GET /api/expense/list HTTP/1.1" 200 -
+2026-04-17 16:39:22,298 - INFO - 127.0.0.1 - - [17/Apr/2026 16:39:22] "GET /api/health/vaccination-due HTTP/1.1" 200 -
+2026-04-17 16:39:32,105 - INFO - 127.0.0.1 - - [17/Apr/2026 16:39:32] "POST /api/login HTTP/1.1" 200 -
+2026-04-17 16:39:32,432 - INFO - 127.0.0.1 - - [17/Apr/2026 16:39:32] "GET /api/expense/list HTTP/1.1" 200 -
+2026-04-17 16:39:32,433 - INFO - 127.0.0.1 - - [17/Apr/2026 16:39:32] "GET /api/health/vaccination-due HTTP/1.1" 200 -
+2026-04-17 16:39:32,448 - INFO - 127.0.0.1 - - [17/Apr/2026 16:39:32] "GET /api/dashboard HTTP/1.1" 200 -
+2026-04-17 16:39:33,966 - INFO - 127.0.0.1 - - [17/Apr/2026 16:39:33] "GET /api/goat/list HTTP/1.1" 200 -
+2026-04-17 16:39:34,291 - DEBUG - Serving upload: G001_BonTon_Softwares_logo_on_dark_backdrop.png
+2026-04-17 16:39:34,295 - INFO - 127.0.0.1 - - [17/Apr/2026 16:39:34] "[36mGET /uploads/G001_BonTon_Softwares_logo_on_dark_backdrop.png HTTP/1.1[0m" 304 -
+2026-04-17 16:54:55,691 - INFO - Application starting...
+2026-04-17 16:54:55,692 - INFO - Running as Python script. BASE_DIR: C:\Users\USER\Desktop\Goat Farm
+2026-04-17 16:54:55,692 - INFO - STATIC_DIR: C:\Users\USER\Desktop\Goat Farm\static
+2026-04-17 16:54:55,692 - INFO - STATIC_DIR exists: True
+2026-04-17 16:54:55,692 - INFO - FRONTEND_DIR: C:\Users\USER\Desktop\Goat Farm\static\frontend
+2026-04-17 16:54:55,692 - INFO - FRONTEND_DIR exists: True
+2026-04-17 16:54:55,693 - INFO - FRONTEND_INDEX: C:\Users\USER\Desktop\Goat Farm\static\frontend\index.html
+2026-04-17 16:54:55,693 - INFO - FRONTEND_INDEX exists: True
+2026-04-17 16:54:55,693 - INFO - Files in C:\Users\USER\Desktop\Goat Farm\static\frontend: ['assets', 'favicon.svg', 'icons.svg', 'index.html']
+2026-04-17 16:54:55,694 - INFO - Flask app initialized. Upload folder: C:\Users\USER\Desktop\Goat Farm\static\uploads
+2026-04-17 16:54:55,696 - INFO - Database initialized
+2026-04-17 16:54:55,701 - INFO - All blueprints registered
+2026-04-17 16:54:55,703 - INFO - ================================================================================
+2026-04-17 16:54:55,703 - INFO - STARTING GOAT FARM APPLICATION
+2026-04-17 16:54:55,703 - INFO - ================================================================================
+2026-04-17 16:54:55,703 - INFO - Running in: Python script mode
+2026-04-17 16:54:55,703 - INFO - Base directory: C:\Users\USER\Desktop\Goat Farm
+2026-04-17 16:54:55,703 - INFO - Frontend directory: C:\Users\USER\Desktop\Goat Farm\static\frontend
+2026-04-17 16:54:55,704 - INFO - Server: http://127.0.0.1:5000
+2026-04-17 16:54:55,704 - INFO - ================================================================================
+2026-04-17 16:54:55,721 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-17 16:54:55,721 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-17 16:54:56,905 - INFO - Opening browser at http://localhost:5000
+2026-04-17 16:54:57,396 - INFO - 127.0.0.1 - - [17/Apr/2026 16:54:57] "[36mGET / HTTP/1.1[0m" 304 -
+2026-04-17 16:54:57,515 - DEBUG - Serving asset: index-BUcoV2qK.css
+2026-04-17 16:54:57,518 - INFO - 127.0.0.1 - - [17/Apr/2026 16:54:57] "[36mGET /assets/index-BUcoV2qK.css HTTP/1.1[0m" 304 -
+2026-04-17 16:54:57,596 - DEBUG - Serving asset: index-N3kcXZSq.js
+2026-04-17 16:54:57,598 - INFO - 127.0.0.1 - - [17/Apr/2026 16:54:57] "[36mGET /assets/index-N3kcXZSq.js HTTP/1.1[0m" 304 -
+2026-04-17 16:54:57,725 - INFO - 127.0.0.1 - - [17/Apr/2026 16:54:57] "GET /api/dashboard HTTP/1.1" 200 -
+2026-04-17 16:54:57,985 - INFO - 127.0.0.1 - - [17/Apr/2026 16:54:57] "GET /api/health/vaccination-due HTTP/1.1" 200 -
+2026-04-17 16:54:57,985 - INFO - 127.0.0.1 - - [17/Apr/2026 16:54:57] "GET /api/expense/list HTTP/1.1" 200 -
+2026-04-17 16:55:04,269 - INFO - 127.0.0.1 - - [17/Apr/2026 16:55:04] "GET /api/expense/list HTTP/1.1" 200 -
+2026-04-17 16:55:04,271 - INFO - 127.0.0.1 - - [17/Apr/2026 16:55:04] "GET /api/health/vaccination-due HTTP/1.1" 200 -
+2026-04-17 16:55:04,281 - INFO - 127.0.0.1 - - [17/Apr/2026 16:55:04] "GET /api/dashboard HTTP/1.1" 200 -
+2026-04-17 16:55:04,520 - INFO - 127.0.0.1 - - [17/Apr/2026 16:55:04] "GET /api/expense/list HTTP/1.1" 200 -
+2026-04-17 16:55:04,583 - INFO - 127.0.0.1 - - [17/Apr/2026 16:55:04] "GET /api/health/vaccination-due HTTP/1.1" 200 -
+2026-04-17 16:55:04,595 - INFO - 127.0.0.1 - - [17/Apr/2026 16:55:04] "GET /api/dashboard HTTP/1.1" 200 -
+2026-04-17 16:55:06,753 - INFO - 127.0.0.1 - - [17/Apr/2026 16:55:06] "OPTIONS /api/login HTTP/1.1" 200 -
+2026-04-17 16:55:07,073 - INFO - 127.0.0.1 - - [17/Apr/2026 16:55:07] "POST /api/login HTTP/1.1" 200 -
+2026-04-17 16:55:07,348 - INFO - 127.0.0.1 - - [17/Apr/2026 16:55:07] "GET /api/dashboard HTTP/1.1" 200 -
+2026-04-17 16:55:07,408 - INFO - 127.0.0.1 - - [17/Apr/2026 16:55:07] "GET /api/expense/list HTTP/1.1" 200 -
+2026-04-17 16:55:07,409 - INFO - 127.0.0.1 - - [17/Apr/2026 16:55:07] "GET /api/health/vaccination-due HTTP/1.1" 200 -
+2026-04-17 16:55:07,429 - INFO - 127.0.0.1 - - [17/Apr/2026 16:55:07] "GET /api/dashboard HTTP/1.1" 200 -
+2026-04-17 16:55:07,663 - INFO - 127.0.0.1 - - [17/Apr/2026 16:55:07] "GET /api/expense/list HTTP/1.1" 200 -
+2026-04-17 16:55:07,726 - INFO - 127.0.0.1 - - [17/Apr/2026 16:55:07] "GET /api/health/vaccination-due HTTP/1.1" 200 -
+2026-04-17 16:55:09,050 - INFO - 127.0.0.1 - - [17/Apr/2026 16:55:09] "GET /api/goat/list HTTP/1.1" 200 -
+2026-04-17 16:55:09,365 - INFO - 127.0.0.1 - - [17/Apr/2026 16:55:09] "GET /api/goat/list HTTP/1.1" 200 -
+2026-04-17 16:55:11,611 - DEBUG - Serving upload: G001_BonTon_Softwares_logo_on_dark_backdrop.png
+2026-04-17 16:55:11,614 - INFO - 127.0.0.1 - - [17/Apr/2026 16:55:11] "GET /uploads/G001_BonTon_Softwares_logo_on_dark_backdrop.png HTTP/1.1" 200 -
+2026-04-17 16:55:17,256 - INFO - 127.0.0.1 - - [17/Apr/2026 16:55:17] "GET /api/goat/list HTTP/1.1" 200 -
+2026-04-17 16:55:17,569 - INFO - 127.0.0.1 - - [17/Apr/2026 16:55:17] "GET /api/goat/list HTTP/1.1" 200 -
+2026-04-17 16:55:23,593 - INFO - 127.0.0.1 - - [17/Apr/2026 16:55:23] "POST /api/login HTTP/1.1" 200 -
+2026-04-17 16:55:23,921 - INFO - 127.0.0.1 - - [17/Apr/2026 16:55:23] "GET /api/health/vaccination-due HTTP/1.1" 200 -
+2026-04-17 16:55:23,921 - INFO - 127.0.0.1 - - [17/Apr/2026 16:55:23] "GET /api/expense/list HTTP/1.1" 200 -
+2026-04-17 16:55:23,941 - INFO - 127.0.0.1 - - [17/Apr/2026 16:55:23] "GET /api/dashboard HTTP/1.1" 200 -
+2026-04-17 16:55:25,318 - INFO - 127.0.0.1 - - [17/Apr/2026 16:55:25] "GET /api/goat/list HTTP/1.1" 200 -
+2026-04-17 16:55:25,629 - DEBUG - Serving upload: G001_BonTon_Softwares_logo_on_dark_backdrop.png
+2026-04-17 16:55:25,631 - INFO - 127.0.0.1 - - [17/Apr/2026 16:55:25] "[36mGET /uploads/G001_BonTon_Softwares_logo_on_dark_backdrop.png HTTP/1.1[0m" 304 -
+2026-04-17 16:55:43,553 - INFO - 127.0.0.1 - - [17/Apr/2026 16:55:43] "GET /api/dashboard HTTP/1.1" 200 -
+2026-04-17 16:55:43,849 - INFO - 127.0.0.1 - - [17/Apr/2026 16:55:43] "GET /api/expense/list HTTP/1.1" 200 -
+2026-04-17 16:55:43,856 - INFO - 127.0.0.1 - - [17/Apr/2026 16:55:43] "GET /api/health/vaccination-due HTTP/1.1" 200 -
+2026-04-17 16:55:48,809 - INFO - 127.0.0.1 - - [17/Apr/2026 16:55:48] "GET /api/goat/list HTTP/1.1" 200 -
+2026-04-17 16:55:50,581 - INFO - 127.0.0.1 - - [17/Apr/2026 16:55:50] "GET /api/feeding/list HTTP/1.1" 200 -
+2026-04-17 16:55:50,895 - INFO - 127.0.0.1 - - [17/Apr/2026 16:55:50] "GET /api/goat/list HTTP/1.1" 200 -
+2026-04-17 16:55:54,029 - INFO - 127.0.0.1 - - [17/Apr/2026 16:55:54] "OPTIONS /api/login HTTP/1.1" 200 -
+2026-04-17 16:55:54,354 - INFO - 127.0.0.1 - - [17/Apr/2026 16:55:54] "POST /api/login HTTP/1.1" 200 -
+2026-04-17 16:55:54,618 - INFO - 127.0.0.1 - - [17/Apr/2026 16:55:54] "GET /api/dashboard HTTP/1.1" 200 -
+2026-04-17 16:55:54,699 - INFO - 127.0.0.1 - - [17/Apr/2026 16:55:54] "GET /api/health/vaccination-due HTTP/1.1" 200 -
+2026-04-17 16:55:54,700 - INFO - 127.0.0.1 - - [17/Apr/2026 16:55:54] "GET /api/expense/list HTTP/1.1" 200 -
+2026-04-17 16:55:54,716 - INFO - 127.0.0.1 - - [17/Apr/2026 16:55:54] "GET /api/dashboard HTTP/1.1" 200 -
+2026-04-17 16:55:54,939 - INFO - 127.0.0.1 - - [17/Apr/2026 16:55:54] "GET /api/health/vaccination-due HTTP/1.1" 200 -
+2026-04-17 16:55:55,008 - INFO - 127.0.0.1 - - [17/Apr/2026 16:55:55] "GET /api/expense/list HTTP/1.1" 200 -
+2026-04-17 16:56:03,084 - INFO - 127.0.0.1 - - [17/Apr/2026 16:56:03] "GET /api/goat/list HTTP/1.1" 200 -
+2026-04-17 16:56:03,406 - INFO - 127.0.0.1 - - [17/Apr/2026 16:56:03] "GET /api/goat/list HTTP/1.1" 200 -
+2026-04-17 16:56:06,717 - INFO - 127.0.0.1 - - [17/Apr/2026 16:56:06] "GET /api/dashboard HTTP/1.1" 200 -
+2026-04-17 16:56:07,026 - INFO - 127.0.0.1 - - [17/Apr/2026 16:56:07] "GET /api/expense/list HTTP/1.1" 200 -
+2026-04-17 16:56:07,027 - INFO - 127.0.0.1 - - [17/Apr/2026 16:56:07] "GET /api/health/vaccination-due HTTP/1.1" 200 -
+2026-04-17 16:56:07,042 - INFO - 127.0.0.1 - - [17/Apr/2026 16:56:07] "GET /api/dashboard HTTP/1.1" 200 -
+2026-04-17 16:56:07,340 - INFO - 127.0.0.1 - - [17/Apr/2026 16:56:07] "GET /api/expense/list HTTP/1.1" 200 -
+2026-04-17 16:56:07,348 - INFO - 127.0.0.1 - - [17/Apr/2026 16:56:07] "GET /api/health/vaccination-due HTTP/1.1" 200 -
+2026-04-17 16:56:09,676 - INFO - 127.0.0.1 - - [17/Apr/2026 16:56:09] "GET /api/feeding/list HTTP/1.1" 200 -
+2026-04-17 16:56:09,677 - INFO - 127.0.0.1 - - [17/Apr/2026 16:56:09] "GET /api/goat/list HTTP/1.1" 200 -
+2026-04-17 16:56:09,923 - INFO - 127.0.0.1 - - [17/Apr/2026 16:56:09] "GET /api/feeding/list HTTP/1.1" 200 -
+2026-04-17 16:56:09,992 - INFO - 127.0.0.1 - - [17/Apr/2026 16:56:09] "GET /api/goat/list HTTP/1.1" 200 -
+2026-04-17 16:56:33,707 - INFO - 127.0.0.1 - - [17/Apr/2026 16:56:33] "OPTIONS /api/feeding/add HTTP/1.1" 200 -
+2026-04-17 16:56:34,041 - INFO - 127.0.0.1 - - [17/Apr/2026 16:56:34] "POST /api/feeding/add HTTP/1.1" 200 -
+2026-04-17 16:56:34,283 - INFO - 127.0.0.1 - - [17/Apr/2026 16:56:34] "GET /api/feeding/list HTTP/1.1" 200 -
+2026-04-17 16:56:34,368 - INFO - 127.0.0.1 - - [17/Apr/2026 16:56:34] "GET /api/goat/list HTTP/1.1" 200 -
+2026-04-17 16:56:42,885 - INFO - 127.0.0.1 - - [17/Apr/2026 16:56:42] "OPTIONS /api/feeding/update/1 HTTP/1.1" 200 -
+2026-04-17 16:56:43,228 - INFO - 127.0.0.1 - - [17/Apr/2026 16:56:43] "PUT /api/feeding/update/1 HTTP/1.1" 200 -
+2026-04-17 16:56:43,450 - INFO - 127.0.0.1 - - [17/Apr/2026 16:56:43] "GET /api/feeding/list HTTP/1.1" 200 -
+2026-04-17 16:56:43,549 - INFO - 127.0.0.1 - - [17/Apr/2026 16:56:43] "GET /api/goat/list HTTP/1.1" 200 -
+2026-04-17 16:56:46,872 - INFO - 127.0.0.1 - - [17/Apr/2026 16:56:46] "GET /api/health/list HTTP/1.1" 200 -
+2026-04-17 16:56:47,184 - INFO - 127.0.0.1 - - [17/Apr/2026 16:56:47] "GET /api/health/vaccination-due HTTP/1.1" 200 -
+2026-04-17 16:56:47,185 - INFO - 127.0.0.1 - - [17/Apr/2026 16:56:47] "GET /api/health/list HTTP/1.1" 200 -
+2026-04-17 16:56:47,186 - INFO - 127.0.0.1 - - [17/Apr/2026 16:56:47] "GET /api/goat/list HTTP/1.1" 200 -
+2026-04-17 16:56:47,500 - INFO - 127.0.0.1 - - [17/Apr/2026 16:56:47] "GET /api/health/vaccination-due HTTP/1.1" 200 -
+2026-04-17 16:56:47,502 - INFO - 127.0.0.1 - - [17/Apr/2026 16:56:47] "GET /api/goat/list HTTP/1.1" 200 -
+2026-04-17 16:57:12,145 - INFO - 127.0.0.1 - - [17/Apr/2026 16:57:12] "OPTIONS /api/health/add HTTP/1.1" 200 -
+2026-04-17 16:57:12,440 - INFO - 127.0.0.1 - - [17/Apr/2026 16:57:12] "POST /api/health/add HTTP/1.1" 200 -
+2026-04-17 16:57:12,452 - INFO - 127.0.0.1 - - [17/Apr/2026 16:57:12] "GET /api/health/list HTTP/1.1" 200 -
+2026-04-17 16:57:12,755 - INFO - 127.0.0.1 - - [17/Apr/2026 16:57:12] "GET /api/goat/list HTTP/1.1" 200 -
+2026-04-17 16:57:12,760 - INFO - 127.0.0.1 - - [17/Apr/2026 16:57:12] "GET /api/health/vaccination-due HTTP/1.1" 200 -
+2026-04-17 16:57:17,258 - INFO - 127.0.0.1 - - [17/Apr/2026 16:57:17] "GET /api/expense/list HTTP/1.1" 200 -
+2026-04-17 16:57:17,575 - INFO - 127.0.0.1 - - [17/Apr/2026 16:57:17] "GET /api/expense/list HTTP/1.1" 200 -
+2026-04-17 16:57:34,248 - INFO - 127.0.0.1 - - [17/Apr/2026 16:57:34] "OPTIONS /api/expense/add HTTP/1.1" 200 -
+2026-04-17 16:57:34,570 - INFO - 127.0.0.1 - - [17/Apr/2026 16:57:34] "POST /api/expense/add HTTP/1.1" 200 -
+2026-04-17 16:57:34,825 - INFO - 127.0.0.1 - - [17/Apr/2026 16:57:34] "GET /api/expense/list HTTP/1.1" 200 -
+2026-04-17 16:57:36,395 - INFO - 127.0.0.1 - - [17/Apr/2026 16:57:36] "GET /api/dashboard HTTP/1.1" 200 -
+2026-04-17 16:57:36,695 - INFO - 127.0.0.1 - - [17/Apr/2026 16:57:36] "GET /api/expense/list HTTP/1.1" 200 -
+2026-04-17 16:57:36,696 - INFO - 127.0.0.1 - - [17/Apr/2026 16:57:36] "GET /api/health/vaccination-due HTTP/1.1" 200 -
+2026-04-17 16:57:36,718 - INFO - 127.0.0.1 - - [17/Apr/2026 16:57:36] "GET /api/dashboard HTTP/1.1" 200 -
+2026-04-17 16:57:37,010 - INFO - 127.0.0.1 - - [17/Apr/2026 16:57:37] "GET /api/health/vaccination-due HTTP/1.1" 200 -
+2026-04-17 16:57:37,012 - INFO - 127.0.0.1 - - [17/Apr/2026 16:57:37] "GET /api/expense/list HTTP/1.1" 200 -
+2026-04-17 16:57:42,798 - INFO - 127.0.0.1 - - [17/Apr/2026 16:57:42] "GET /api/health/list HTTP/1.1" 200 -
+2026-04-17 16:57:42,799 - INFO - 127.0.0.1 - - [17/Apr/2026 16:57:42] "GET /api/health/vaccination-due HTTP/1.1" 200 -
+2026-04-17 16:57:42,803 - INFO - 127.0.0.1 - - [17/Apr/2026 16:57:42] "GET /api/goat/list HTTP/1.1" 200 -
+2026-04-17 16:57:43,054 - INFO - 127.0.0.1 - - [17/Apr/2026 16:57:43] "GET /api/health/list HTTP/1.1" 200 -
+2026-04-17 16:57:43,119 - INFO - 127.0.0.1 - - [17/Apr/2026 16:57:43] "GET /api/health/vaccination-due HTTP/1.1" 200 -
+2026-04-17 16:57:43,122 - INFO - 127.0.0.1 - - [17/Apr/2026 16:57:43] "GET /api/goat/list HTTP/1.1" 200 -
+2026-04-17 16:57:44,598 - INFO - 127.0.0.1 - - [17/Apr/2026 16:57:44] "GET /api/feeding/list HTTP/1.1" 200 -
+2026-04-17 16:57:44,910 - INFO - 127.0.0.1 - - [17/Apr/2026 16:57:44] "GET /api/feeding/list HTTP/1.1" 200 -
+2026-04-17 16:57:44,912 - INFO - 127.0.0.1 - - [17/Apr/2026 16:57:44] "GET /api/goat/list HTTP/1.1" 200 -
+2026-04-17 16:57:45,220 - INFO - 127.0.0.1 - - [17/Apr/2026 16:57:45] "GET /api/goat/list HTTP/1.1" 200 -
+2026-04-17 16:57:45,859 - INFO - 127.0.0.1 - - [17/Apr/2026 16:57:45] "GET /api/goat/list HTTP/1.1" 200 -
+2026-04-17 16:57:46,183 - INFO - 127.0.0.1 - - [17/Apr/2026 16:57:46] "GET /api/goat/list HTTP/1.1" 200 -
+2026-04-17 16:57:48,832 - INFO - 127.0.0.1 - - [17/Apr/2026 16:57:48] "GET /api/expense/list HTTP/1.1" 200 -
+2026-04-17 16:57:49,149 - INFO - 127.0.0.1 - - [17/Apr/2026 16:57:49] "GET /api/expense/list HTTP/1.1" 200 -
+2026-04-17 16:57:51,546 - INFO - 127.0.0.1 - - [17/Apr/2026 16:57:51] "GET /api/sales/list HTTP/1.1" 200 -
+2026-04-17 16:57:51,856 - INFO - 127.0.0.1 - - [17/Apr/2026 16:57:51] "GET /api/goat/list HTTP/1.1" 200 -
+2026-04-17 16:57:51,857 - INFO - 127.0.0.1 - - [17/Apr/2026 16:57:51] "GET /api/sales/list HTTP/1.1" 200 -
+2026-04-17 16:57:52,171 - INFO - 127.0.0.1 - - [17/Apr/2026 16:57:52] "GET /api/goat/list HTTP/1.1" 200 -
+2026-04-17 16:58:07,023 - INFO - 127.0.0.1 - - [17/Apr/2026 16:58:07] "OPTIONS /api/sales/add HTTP/1.1" 200 -
+2026-04-17 16:58:07,307 - INFO - 127.0.0.1 - - [17/Apr/2026 16:58:07] "POST /api/sales/add HTTP/1.1" 200 -
+2026-04-17 16:58:07,340 - INFO - 127.0.0.1 - - [17/Apr/2026 16:58:07] "GET /api/sales/list HTTP/1.1" 200 -
+2026-04-17 16:58:07,622 - INFO - 127.0.0.1 - - [17/Apr/2026 16:58:07] "GET /api/goat/list HTTP/1.1" 200 -
+2026-04-17 16:58:11,216 - INFO - 127.0.0.1 - - [17/Apr/2026 16:58:11] "GET /api/dashboard HTTP/1.1" 200 -
+2026-04-17 16:58:11,498 - INFO - 127.0.0.1 - - [17/Apr/2026 16:58:11] "GET /api/health/vaccination-due HTTP/1.1" 200 -
+2026-04-17 16:58:11,501 - INFO - 127.0.0.1 - - [17/Apr/2026 16:58:11] "GET /api/expense/list HTTP/1.1" 200 -
+2026-04-17 16:58:11,543 - INFO - 127.0.0.1 - - [17/Apr/2026 16:58:11] "GET /api/dashboard HTTP/1.1" 200 -
+2026-04-17 16:58:11,821 - INFO - 127.0.0.1 - - [17/Apr/2026 16:58:11] "GET /api/expense/list HTTP/1.1" 200 -
+2026-04-17 16:58:11,822 - INFO - 127.0.0.1 - - [17/Apr/2026 16:58:11] "GET /api/health/vaccination-due HTTP/1.1" 200 -
+2026-04-17 16:58:39,215 - INFO - 127.0.0.1 - - [17/Apr/2026 16:58:39] "GET /api/goat/list HTTP/1.1" 200 -
+2026-04-17 16:58:39,480 - INFO - 127.0.0.1 - - [17/Apr/2026 16:58:39] "GET /api/goat/list HTTP/1.1" 200 -
+2026-04-17 16:58:41,734 - INFO - 127.0.0.1 - - [17/Apr/2026 16:58:41] "GET /api/health/list HTTP/1.1" 200 -
+2026-04-17 16:58:42,052 - INFO - 127.0.0.1 - - [17/Apr/2026 16:58:42] "GET /api/health/vaccination-due HTTP/1.1" 200 -
+2026-04-17 16:58:42,054 - INFO - 127.0.0.1 - - [17/Apr/2026 16:58:42] "GET /api/health/list HTTP/1.1" 200 -
+2026-04-17 16:58:42,054 - INFO - 127.0.0.1 - - [17/Apr/2026 16:58:42] "GET /api/goat/list HTTP/1.1" 200 -
+2026-04-17 16:58:42,376 - INFO - 127.0.0.1 - - [17/Apr/2026 16:58:42] "GET /api/health/vaccination-due HTTP/1.1" 200 -
+2026-04-17 16:58:42,378 - INFO - 127.0.0.1 - - [17/Apr/2026 16:58:42] "GET /api/goat/list HTTP/1.1" 200 -
+2026-04-17 16:58:50,377 - INFO - 127.0.0.1 - - [17/Apr/2026 16:58:50] "OPTIONS /api/health/update/1 HTTP/1.1" 200 -
+2026-04-17 16:58:50,654 - INFO - 127.0.0.1 - - [17/Apr/2026 16:58:50] "PUT /api/health/update/1 HTTP/1.1" 200 -
+2026-04-17 16:58:50,692 - INFO - 127.0.0.1 - - [17/Apr/2026 16:58:50] "GET /api/health/list HTTP/1.1" 200 -
+2026-04-17 16:58:50,983 - INFO - 127.0.0.1 - - [17/Apr/2026 16:58:50] "GET /api/health/vaccination-due HTTP/1.1" 200 -
+2026-04-17 16:58:50,984 - INFO - 127.0.0.1 - - [17/Apr/2026 16:58:50] "GET /api/goat/list HTTP/1.1" 200 -
+2026-04-17 16:58:52,818 - INFO - 127.0.0.1 - - [17/Apr/2026 16:58:52] "GET /api/dashboard HTTP/1.1" 200 -
+2026-04-17 16:58:53,109 - INFO - 127.0.0.1 - - [17/Apr/2026 16:58:53] "GET /api/expense/list HTTP/1.1" 200 -
+2026-04-17 16:58:53,110 - INFO - 127.0.0.1 - - [17/Apr/2026 16:58:53] "GET /api/health/vaccination-due HTTP/1.1" 200 -
+2026-04-17 16:58:53,139 - INFO - 127.0.0.1 - - [17/Apr/2026 16:58:53] "GET /api/dashboard HTTP/1.1" 200 -
+2026-04-17 16:58:53,431 - INFO - 127.0.0.1 - - [17/Apr/2026 16:58:53] "GET /api/expense/list HTTP/1.1" 200 -
+2026-04-17 16:58:53,433 - INFO - 127.0.0.1 - - [17/Apr/2026 16:58:53] "GET /api/health/vaccination-due HTTP/1.1" 200 -
