@@ -142,37 +142,22 @@ def serve_frontend_assets(filename):
 @app.route("/", defaults={"path": ""})
 @app.route("/<path:path>")
 def serve_react_app(path):
-    """
-    SPA Catch-all route:
-    - API routes (/api/*) that don't match registered routes return 404
-    - All other routes return index.html (React Router handles client-side routing)
-    """
     try:
-        # Skip API routes (Flask will handle them via blueprints)
+        # ✅ If API call → let Flask handle it
         if path.startswith("api/"):
-            logger.debug(f"API route not found: /{path}")
             return {"error": "API route not found"}, 404
 
-        # Try to serve static files if they exist (e.g., /sitemap.xml, /robots.txt)
-        if path != "":
-            full_path = FRONTEND_DIR / path
-            if full_path.exists() and full_path.is_file():
-                logger.debug(f"Serving file: {path}")
-                return send_from_directory(FRONTEND_DIR, path)
+        # ✅ Serve static frontend files (js/css)
+        file_path = FRONTEND_DIR / path
+        if path and file_path.exists():
+            return send_from_directory(file_path.parent, file_path.name)
 
-        # For all other routes, serve React's index.html
-        # React Router will handle client-side navigation
-        if not FRONTEND_INDEX.exists():
-            logger.error(f"CRITICAL: index.html not found at {FRONTEND_INDEX}")
-            return f"React app not found. index.html missing at {FRONTEND_INDEX}", 500
-
-        logger.debug(f"Serving React app for path: /{path if path else 'root'}")
+        # ✅ ALWAYS return React index.html
         return send_from_directory(FRONTEND_DIR, "index.html")
 
     except Exception as e:
-        logger.error(f"Error serving React app for path '{path}': {e}", exc_info=True)
-        return f"Server error: {str(e)}", 500
-
+        print("ERROR SERVING FRONTEND:", str(e))
+        return {"error": str(e)}, 500
 
 @app.errorhandler(404)
 def not_found(error):
