@@ -1,0 +1,51 @@
+2026-04-16 17:50:42,859 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-16 17:50:42,859 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-17 10:43:53,237 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-17 10:43:53,237 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-17 10:43:55,352 - INFO - 127.0.0.1 - - [17/Apr/2026 10:43:55] "GET / HTTP/1.1" 200 -
+2026-04-17 10:43:57,672 - INFO - 127.0.0.1 - - [17/Apr/2026 10:43:57] "GET /assets/index-BUcoV2qK.css HTTP/1.1" 200 -
+2026-04-17 10:43:57,687 - INFO - 127.0.0.1 - - [17/Apr/2026 10:43:57] "GET /assets/index-N3kcXZSq.js HTTP/1.1" 200 -
+2026-04-17 10:43:58,535 - INFO - package: mysql.connector.plugins
+2026-04-17 10:43:58,544 - INFO - plugin_name: caching_sha2_password
+2026-04-17 10:43:58,556 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-04-17 10:43:58,627 - INFO - 127.0.0.1 - - [17/Apr/2026 10:43:58] "GET /api/expense/list HTTP/1.1" 200 -
+2026-04-17 10:43:58,632 - INFO - 127.0.0.1 - - [17/Apr/2026 10:43:58] "GET /api/health/vaccination-due HTTP/1.1" 200 -
+2026-04-17 10:43:59,389 - INFO - 127.0.0.1 - - [17/Apr/2026 10:43:59] "GET /api/dashboard HTTP/1.1" 200 -
+2026-04-17 10:44:09,004 - INFO - 127.0.0.1 - - [17/Apr/2026 10:44:09] "POST /api/login HTTP/1.1" 200 -
+2026-04-17 10:44:09,676 - INFO - 127.0.0.1 - - [17/Apr/2026 10:44:09] "GET /api/expense/list HTTP/1.1" 200 -
+2026-04-17 10:44:09,794 - INFO - 127.0.0.1 - - [17/Apr/2026 10:44:09] "GET /api/health/vaccination-due HTTP/1.1" 200 -
+2026-04-17 10:44:10,281 - INFO - 127.0.0.1 - - [17/Apr/2026 10:44:10] "GET /api/dashboard HTTP/1.1" 200 -
+2026-04-17 10:44:20,998 - INFO - 127.0.0.1 - - [17/Apr/2026 10:44:20] "GET /api/sales/list HTTP/1.1" 200 -
+2026-04-17 10:44:21,310 - INFO - 127.0.0.1 - - [17/Apr/2026 10:44:21] "GET /api/goat/list HTTP/1.1" 200 -
+2026-04-17 10:44:25,966 - INFO - 127.0.0.1 - - [17/Apr/2026 10:44:25] "GET /api/goat/list HTTP/1.1" 200 -
+2026-04-17 10:44:26,138 - INFO - 127.0.0.1 - - [17/Apr/2026 10:44:26] "GET /uploads/G001_BonTon_Softwares_logo_on_dark_backdrop.png HTTP/1.1" 200 -
+2026-04-17 10:44:26,283 - INFO - 127.0.0.1 - - [17/Apr/2026 10:44:26] "GET /uploads/G002_BonTon_Softwares_logo_on_dark_backdrop.png HTTP/1.1" 200 -
+2026-04-17 10:44:26,285 - INFO - 127.0.0.1 - - [17/Apr/2026 10:44:26] "GET /uploads/G003_BonTon_Softwares_logo_on_dark_backdrop.png HTTP/1.1" 200 -
+2026-04-17 10:44:26,286 - INFO - 127.0.0.1 - - [17/Apr/2026 10:44:26] "GET /uploads/G005_BonTon_Softwares_logo_on_dark_backdrop.png HTTP/1.1" 200 -
+2026-04-17 10:44:26,286 - INFO - 127.0.0.1 - - [17/Apr/2026 10:44:26] "GET /uploads/G004_BonTon_Softwares_logo_on_dark_backdrop.png HTTP/1.1" 200 -
+2026-04-17 10:44:26,288 - INFO - 127.0.0.1 - - [17/Apr/2026 10:44:26] "GET /uploads/G006_BonTon_Softwares_logo_on_dark_backdrop.png HTTP/1.1" 200 -
+2026-04-17 10:45:07,346 - INFO - 127.0.0.1 - - [17/Apr/2026 10:45:07] "DELETE /api/goat/delete/1 HTTP/1.1" 200 -
+2026-04-17 10:45:07,573 - INFO - 127.0.0.1 - - [17/Apr/2026 10:45:07] "GET /api/goat/list HTTP/1.1" 200 -
+2026-04-17 10:45:07,670 - INFO - 127.0.0.1 - - [17/Apr/2026 10:45:07] "[36mGET /uploads/G002_BonTon_Softwares_logo_on_dark_backdrop.png HTTP/1.1[0m" 304 -
+2026-04-17 10:45:07,889 - INFO - 127.0.0.1 - - [17/Apr/2026 10:45:07] "[36mGET /uploads/G004_BonTon_Softwares_logo_on_dark_backdrop.png HTTP/1.1[0m" 304 -
+2026-04-17 10:45:07,891 - INFO - 127.0.0.1 - - [17/Apr/2026 10:45:07] "[36mGET /uploads/G005_BonTon_Softwares_logo_on_dark_backdrop.png HTTP/1.1[0m" 304 -
+2026-04-17 10:45:07,893 - INFO - 127.0.0.1 - - [17/Apr/2026 10:45:07] "[36mGET /uploads/G003_BonTon_Softwares_logo_on_dark_backdrop.png HTTP/1.1[0m" 304 -
+2026-04-17 10:45:07,899 - INFO - 127.0.0.1 - - [17/Apr/2026 10:45:07] "[36mGET /uploads/G006_BonTon_Softwares_logo_on_dark_backdrop.png HTTP/1.1[0m" 304 -
+2026-04-17 10:45:36,422 - INFO - 127.0.0.1 - - [17/Apr/2026 10:45:36] "GET /api/feeding/list HTTP/1.1" 200 -
+2026-04-17 10:45:36,707 - INFO - 127.0.0.1 - - [17/Apr/2026 10:45:36] "GET /api/goat/list HTTP/1.1" 200 -
+2026-04-17 10:46:24,802 - INFO - 127.0.0.1 - - [17/Apr/2026 10:46:24] "GET /api/goat/list HTTP/1.1" 200 -
+2026-04-17 10:46:24,812 - INFO - 127.0.0.1 - - [17/Apr/2026 10:46:24] "GET /api/health/list HTTP/1.1" 200 -
+2026-04-17 10:46:24,814 - INFO - 127.0.0.1 - - [17/Apr/2026 10:46:24] "GET /api/health/vaccination-due HTTP/1.1" 200 -
+2026-04-17 10:51:52,327 - INFO - 127.0.0.1 - - [17/Apr/2026 10:51:52] "GET /api/health/vaccination-due HTTP/1.1" 200 -
+2026-04-17 10:51:52,437 - INFO - 127.0.0.1 - - [17/Apr/2026 10:51:52] "GET /api/expense/list HTTP/1.1" 200 -
+2026-04-17 10:51:53,019 - INFO - 127.0.0.1 - - [17/Apr/2026 10:51:53] "GET /api/dashboard HTTP/1.1" 200 -
+2026-04-17 10:52:17,637 - INFO - 127.0.0.1 - - [17/Apr/2026 10:52:17] "GET /api/goat/list HTTP/1.1" 200 -
+2026-04-17 10:52:17,961 - INFO - 127.0.0.1 - - [17/Apr/2026 10:52:17] "[36mGET /uploads/G002_BonTon_Softwares_logo_on_dark_backdrop.png HTTP/1.1[0m" 304 -
+2026-04-17 10:52:17,962 - INFO - 127.0.0.1 - - [17/Apr/2026 10:52:17] "[36mGET /uploads/G004_BonTon_Softwares_logo_on_dark_backdrop.png HTTP/1.1[0m" 304 -
+2026-04-17 10:52:17,963 - INFO - 127.0.0.1 - - [17/Apr/2026 10:52:17] "[36mGET /uploads/G005_BonTon_Softwares_logo_on_dark_backdrop.png HTTP/1.1[0m" 304 -
+2026-04-17 10:52:17,963 - INFO - 127.0.0.1 - - [17/Apr/2026 10:52:17] "[36mGET /uploads/G003_BonTon_Softwares_logo_on_dark_backdrop.png HTTP/1.1[0m" 304 -
+2026-04-17 10:52:17,970 - INFO - 127.0.0.1 - - [17/Apr/2026 10:52:17] "[36mGET /uploads/G006_BonTon_Softwares_logo_on_dark_backdrop.png HTTP/1.1[0m" 304 -
+2026-04-17 10:54:29,174 - INFO - 127.0.0.1 - - [17/Apr/2026 10:54:29] "GET /api/goat/list HTTP/1.1" 200 -
+2026-04-17 10:54:29,181 - INFO - 127.0.0.1 - - [17/Apr/2026 10:54:29] "GET /api/feeding/list HTTP/1.1" 200 -
