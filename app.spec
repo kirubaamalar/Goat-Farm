@@ -1,11 +1,32 @@
 # -*- mode: python ; coding: utf-8 -*-
+"""
+PyInstaller spec file for Goat Farm Flask+React application.
 
+This spec uses --onedir mode for better stability and faster startup on other systems.
+
+Usage:
+    pyinstaller app.spec
+
+Output:
+    - dist/app/ (directory containing the executable and all dependencies)
+    - build/ (build files)
+"""
+
+import os
+from PyInstaller.utils.hooks import collect_submodules, collect_data_files
+
+# Build datas list - only include files that exist
+datas_list = [
+    ('static', 'static'),  # Include the entire static folder (frontend build + uploads)
+]
+if os.path.exists('goatfarm.db'):
+    datas_list.append(('goatfarm.db', '.'))
 
 a = Analysis(
     ['app.py'],
     pathex=[],
     binaries=[],
-    datas=[('static', 'static')],
+    datas=datas_list,
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
@@ -14,13 +35,12 @@ a = Analysis(
     noarchive=False,
     optimize=0,
 )
-pyz = PYZ(a.pure)
+
+pyz = PYZ(a.pure, a.zipped_data, cipher=None)
 
 exe = EXE(
     pyz,
     a.scripts,
-    a.binaries,
-    a.datas,
     [],
     name='app',
     debug=False,
@@ -36,3 +56,15 @@ exe = EXE(
     codesign_identity=None,
     entitlements_file=None,
 )
+
+coll = COLLECT(
+    exe,
+    a.binaries,
+    a.zipfiles,
+    a.datas,
+    strip=False,
+    upx=True,
+    upx_exclude=[],
+    name='app',
+)
+
