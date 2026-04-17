@@ -14,7 +14,7 @@ export const Sidebar = () => {
     <aside className="hidden h-full w-64 flex-shrink-0 flex-col border-r border-gray-200 bg-white/80 px-4 py-6 backdrop-blur dark:border-gray-800 dark:bg-gray-900/80 md:flex">
       <div className="mb-6 flex items-center gap-2">
         <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-emerald-500 text-white font-bold">
-          GF
+          M
         </span>
         <div>
           <div className="text-sm font-semibold text-gray-900 dark:text-gray-100">
